@@ -1,0 +1,1198 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="webthemez">
+        <title>Cloud-Hosting-Free-Bootstrap-Responsive-Webiste-Template</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/animate.min.css" rel="stylesheet"> 
+        <link href="css/prettyPhoto.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet"> 
+        <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+        <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+        <link href="css/animate.css" rel="stylesheet" media="screen">
+        <!-- Owl Carousel Assets -->
+        <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css" />
+        <!-- Font Awesome -->
+        <link href="font/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+        <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="shortcut icon" href="images/ico/favicon.ico"> 
+    </head> 
+    <style>
+      
+        #hero-banner{
+            overflow: hidden;
+            height:650px;
+            background: url('images/download.png');
+            background-size:cover;
+            color:#fff;
+        }
+
+        * {margin: 0; padding: 0;}
+
+        body {
+            background: url('dark_geometric.png');
+        }
+
+        #container {
+            width: 1000px;
+            overflow: hidden;
+            margin: 50px auto;
+            background: white;
+        }
+        /*header*/
+        header {
+            width: 800px;
+            margin: 40px auto;
+        }
+
+        header h1 {
+            text-align: center;
+            font: 100 60px/1.5 Helvetica, Verdana, sans-serif;
+
+        }
+
+        header p {
+            font: 100 15px/1.5 Helvetica, Verdana, sans-serif;
+            text-align: justify;
+        }
+
+        /*photobanner*/
+
+        .photobanner {
+            height: 233px;
+            width: 3550px;
+            margin-bottom: 80px;
+        }
+        /*keyframe animations*/
+        .first {
+            -webkit-animation: bannermove 10s linear infinite;
+            -moz-animation: bannermove 10s linear infinite;
+            -ms-animation: bannermove 10s linear infinite;
+            -o-animation: bannermove 10s linear infinite;
+            animation: bannermove 10s linear infinite;
+        }
+
+        @keyframes "bannermove" {
+            0% {
+                margin-left: 0px;
+            }
+            100% {
+                margin-left: -215px;
+            }
+
+        }
+
+        @-moz-keyframes bannermove {
+            0% {
+                margin-left: 0px;
+            }
+            100% {
+                margin-left: -215px;
+            }
+
+        }
+
+        @-webkit-keyframes "bannermove" {
+            0% {
+                margin-left: 0px;
+            }
+            100% {
+                margin-left: -215px;
+            }
+
+        }
+
+        @-ms-keyframes "bannermove" {
+            0% {
+                margin-left: 0px;
+            }
+            100% {
+                margin-left: -215px;
+            }
+
+        }
+
+        @-o-keyframes "bannermove" {
+            0% {
+                margin-left: 0px;
+            }
+            100% {
+                margin-left: -215px;
+            }
+
+        }
+        .photobanner {
+            height: 233px;
+            width: 3550px;
+            margin-bottom: 80px;
+        }
+
+        .photobanner img {
+            -webkit-transition: all 0s ease;
+            -moz-transition: all 0s ease;
+            -o-transition: all 0s ease;
+            -ms-transition: all 0s ease;
+            transition: all 0s ease;
+        }
+
+        .photobanner img:hover {
+            -webkit-transform: scale(1.1);
+            -moz-transform: scale(1.1);
+            -o-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1);
+            cursor: pointer;
+
+            -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+            -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+            box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+        }
+        .photobanner img{
+            height:40px;
+            margin-left: 1%
+        }
+        .collapsible {
+            color: black;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            border-radius: 10px;
+            margin-top: 2%;
+            box-shadow: 5px 10px 18px #888888;
+        }
+
+        .active2, .collapsible:hover {
+            background-color: #555;
+        }
+
+        .collapsible:after {
+            content: '\002B';
+            color: black;
+            font-weight: bold;
+            float: right;
+            margin-left: 5px;
+        }
+
+        .active2:after {
+            content: "\2212";
+        }
+
+        .content {
+            margin-top: 1%;
+            padding: 0 18px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            background-color: #f1f1f1;
+        }
+       
+        button:hover{
+            box-shadow: 10px 5px 18px gray;
+            background: #ff0000
+            
+        }
+         .switch section{
+            display: none;
+        }
+         .switch section:target{
+            display: block;
+        }
+        .switch a{
+            background: #666666;
+            padding: 20px;
+            margin-left: 6%;
+            text-decoration: none;
+            color: #cccccc;
+            border-radius: 10px;
+            box-shadow: 10px 5px 18px gray;
+        }
+        .switch a:hover{
+            background: #0099ff;
+            color: white;
+        }
+       
+        #ino{
+            display:block;
+        }
+       
+    </style>
+    <body id="home">
+
+        <header id="header" style="background: black;">
+
+            <nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="banner"  style="background: black;height: 80px;box-shadow:10px 5px 18px gray">
+
+                <div class="container">
+                    <div class="navbar-header" >
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html"><img src="images/click400.png" alt="logo"></a>
+                    </div>
+
+                    <div class="collapse navbar-collapse navbar-right">
+                        <ul class="nav navbar-nav" >
+                            <li class="scroll active" style="height: 80px"><a href="#home">Home</a></li> 
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">IT Services <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="sidebar-right.html">Right Sidebar</a></li>
+                                    <li><a href="#">Dummy Link1</a></li>
+                                    <li><a href="#">Dummy Link2</a></li>
+                                    <li><a href="#">Dummy Link3</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">IT Services <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="sidebar-right.html">Right Sidebar</a></li>
+                                    <li><a href="#">Dummy Link1</a></li>
+                                    <li><a href="#">Dummy Link2</a></li>
+                                    <li><a href="#">Dummy Link3</a></li>
+                                </ul>
+                            </li>
+                            <li class="scroll" style="height: 80px"><a href="#about" >About Company</a></li> 
+                            <li class="scroll" style="height: 80px"><a href="#pricing">Pricing</a></li>
+                            <li class="scroll" style="height: 80px"><a href="#our-team">Team</a></li>
+                            <li class="scroll" style="height: 80px"><a href="#contact-us">Contact</a></li>     
+
+
+                        </ul>
+                    </div>
+                </div><!--/.container-->
+            </nav><!--/nav-->
+        </header><!--/header-->
+
+        <section id="hero-banner">
+            <div class="banner-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+
+                            <h2 class="section-title wow fadeInDown" style="color:black"><b>Digital</b> Marketing</h2>
+                            <p class="section-title wow fadeInLeft" style="font-size: 15px; color: black"><b style="color: #0099cc">Home</b> > Digital Marketing</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!--/#main-slider-->
+        <section id="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title wow fadeInDown">GET BEST RESULTS</h2>
+                    <p class="wow fadeInDown" style="font-size:20px"> We provide the best in class services to make your life easy!</p>
+                </div>
+                <div class="row FeatLayout">
+                    <div class="col-md-7">
+                        <h2 class="section-title wow fadeInRight" style="font-size:40px">Digital Marketing Company In Jodhpury</h2>
+                        <p style="font-size: 20px" class="section-title wow fadeInRight">Click400 is a <b>digital marketing company in Jodhpur</b> with an inclination to create value for our clients. our digital marketing expert team has been creating value for our client in driven industries such as electrical goods and appliances, lighting, fashion apparel, FMCG, consumer durable technologies, and almost every category we served too.</p>
+
+                    </div>
+                    <div class="col-md-5 Featimg"> <img src="images/topimg-home.png" alt="feature" class="section-title wow fadeInLeft"  style="height:400px;width: 560px;margin-top: -20%"></div>
+
+
+                </div>
+            </div>
+        </section>
+        <section id="services" >
+            <div class="container">
+
+                              <div class="row">
+                    <div class="features" style="width:1300px">
+
+
+                        <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms" style="box-shadow: 10px 5px 18px gray; border-radius:10px;height:210px;width:500px">
+                            <div class="media service-box">
+                                <div class="pull-left">
+                                    <i class="fa fa-android"></i>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">App Development</h4>
+                                    <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum.</p>
+                                </div>
+                            </div>
+                        </div><!--/.col-md-4-->
+
+                        <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms" style="width: 500px;margin-left:200px; box-shadow: 10px 5px 18px gray; border-radius: 10px; height: 210px">
+                            <div class="media service-box">
+                                <div class="pull-left">
+                                    <i class="fa fa-building" aria-hidden="true"></i>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Brand Development</h4>
+                                    <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum.</p>
+                                </div>
+                            </div>
+                        </div><!--/.col-md-4-->
+
+                        <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms" style="width: 500px;box-shadow: 10px 5px 18px gray; border-radius: 10px; margin-top: 50px; height: 210px">
+                            <div class="media service-box">
+                                <div class="pull-left">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Search Engine Optimization (SEO)</h4>
+                                    <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum.</p>
+                                </div>
+                            </div>
+                        </div><!--/.col-md-4-->
+
+                        <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="500ms" style="width: 500px;margin-left:200px; box-shadow: 10px 5px 18px gray; border-radius: 10px; margin-top: 50px; height: 210px">
+                            <div class="media service-box">
+                                <div class="pull-left">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Shopify Development</h4>
+                                    <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum.</p>
+                                </div>
+                            </div>
+                        </div><!--/.col-md-4-->
+                    </div>
+                </div><!--/.row-->    
+            </div><!--/.container-->
+        </section><!--/#services-->
+
+
+        <section id="best">
+            <div class="container" style="background:none;margin-top:10%">
+
+                <div class="section-header">
+                    <h2 class="section-title wow fadeInDown">GET BEST RESULTS</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6 wow fadeInLeft">
+                        <img class="img-responsive" src="images/best.jpg" alt="" style="height:500px;margin-top: 0%;margin-left: -14%">
+                    </div>
+
+                    <div class="col-sm-6 wow fadeInRight">
+                        <h2 class="column-title" style="font-size:33px">Digital Marketing Company In Jodhpur</h2>
+
+                        <p style="font-size:20px">In this fast-evolving Internet age, the right Digital Marketing solutions from the best <strong>Digital Marketing Company in Jodhpur</strong> can facilitate a powerful connection between your high potential customers and your brand, ultimately leading to an improved brand recall. Click400 Technologies, as a leading Digital Marketing Company in Jodhpur, helps you establish a foothold on the online medium for Search Engines and Social Media in Jodhpur. we use ethical and proven methods to get your brand to acquire and sustain a remarkable online presence.</p>
+
+
+
+                        <a class="btn btn-primary" href="#">Learn More</a>
+
+                    </div>
+                </div>
+            </div>
+        </section><!--/#about-->
+
+        <section id="portfolio" style="display:none;">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title wow fadeInDown">Servers</h2>
+                    <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
+                </div>
+
+                <div class="text-center">
+                    <ul class="portfolio-filter">
+                        <li><a class="active" href="#" data-filter="*">All Works</a></li>
+                        <li><a href="#" data-filter=".designing">Designing</a></li>
+                        <li><a href="#" data-filter=".mobile">Mobile App</a></li>
+                        <li><a href="#" data-filter=".development">Development</a></li>
+                    </ul><!--/#portfolio-filter-->
+                </div>
+
+                <div class="portfolio-items">
+                    <div class="portfolio-item designing">
+                        <div class="portfolio-item-inner">
+                            <img class="img-responsive" src="images/portfolio/01.jpg" alt="">
+                            <div class="portfolio-info">
+                                <h3>Project Name</h3>
+                                Some description..
+                                <a class="preview" href="images/portfolio/01.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </div><!--/.portfolio-item-->
+
+                    <div class="portfolio-item mobile development">
+                        <div class="portfolio-item-inner">
+                            <img class="img-responsive" src="images/portfolio/02.jpg" alt="">
+                            <div class="portfolio-info">
+                                <h3>Project Name</h3>
+                                Some description..
+                                <a class="preview" href="images/portfolio/02.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </div><!--/.portfolio-item-->
+
+                    <div class="portfolio-item designing">
+                        <div class="portfolio-item-inner">
+                            <img class="img-responsive" src="images/portfolio/03.jpg" alt="">
+                            <div class="portfolio-info">
+                                <h3>Project Name</h3>
+                                Some description..
+                                <a class="preview" href="images/portfolio/03.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </div><!--/.portfolio-item-->
+
+                    <div class="portfolio-item mobile">
+                        <div class="portfolio-item-inner">
+                            <img class="img-responsive" src="images/portfolio/04.jpg" alt="">
+                            <div class="portfolio-info">
+                                <h3>Project Name</h3>
+                                Some description..
+                                <a class="preview" href="images/portfolio/04.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </div><!--/.portfolio-item-->
+
+                    <div class="portfolio-item designing development">
+                        <div class="portfolio-item-inner">
+                            <img class="img-responsive" src="images/portfolio/05.jpg" alt="">
+                            <div class="portfolio-info">
+                                <h3>Project Name</h3>
+                                Some description..
+                                <a class="preview" href="images/portfolio/05.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </div><!--/.portfolio-item-->
+
+                    <div class="portfolio-item mobile">
+                        <div class="portfolio-item-inner">
+                            <img class="img-responsive" src="images/portfolio/06.jpg" alt="">
+                            <div class="portfolio-info">
+                                <h3>Project Name</h3>
+                                Some description..
+                                <a class="preview" href="images/portfolio/06.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </div><!--/.portfolio-item-->
+
+                    <div class="portfolio-item designing development">
+                        <div class="portfolio-item-inner">
+                            <img class="img-responsive" src="images/portfolio/07.jpg" alt="">
+                            <div class="portfolio-info">
+                                <h3>Project Name</h3>
+                                Some description..
+                                <a class="preview" href="images/portfolio/07.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </div><!--/.portfolio-item-->
+
+                    <div class="portfolio-item mobile">
+                        <div class="portfolio-item-inner">
+                            <img class="img-responsive" src="images/portfolio/08.jpg" alt="">
+                            <div class="portfolio-info">
+                                <h3>Project Name</h3>
+                                Some description..
+                                <a class="preview" href="images/portfolio/08.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </div><!--/.portfolio-item-->
+                </div>
+            </div><!--/.container-->
+        </section><!--/#portfolio-->
+
+        <div id="container" style="border:none;width: 1000px;margin-top:10%">
+
+            <div class="section-header">
+                <h2 class="section-title wow fadeInDown">Partners With</h2>
+            </div>
+
+            <!-- Each image is 350px by 233px -->
+            <div class="photobanner" class="section-title wow fadeInDown" style="margin-top:-20px">
+                <img class="first" src="images/clients/client-1.png" alt="" />
+                <img src="images/clients/client2.png" alt="" />
+                <img src="images/clients/client3.png" alt="" />
+                <img src="images/clients/client4.png" alt="" />
+                <img src="images/clients/client5.png" alt="" />
+                <img src="images/clients/client-2.png" alt="" />
+                <img src="images/clients/client7.png" alt="" />
+
+            </div>
+        </div>
+       
+              
+        
+        <section id="about" style="width:100%;margin-top:-10%;background:none;">
+           <div class="container" id="contain"> 
+                <div class="section-header" >
+                    <h2 class="section-title wow fadeInDown" >BUILD YOUR SMALL BUSINESS</h2>
+                    <p class="wow fadeInDown" style="font-size:20px">Take Advantage of Click400's Small Business Launchpad!</p>
+                </div>
+                <div class="switch" style="margin-top:10%;" >
+                    <a class="collapsible2" href="#" style=" box-shadow: none; background: #0099ff; color: white;"><b>Social Media Marketing</b></a>
+                    <a class="collapsible3" href="#ino2" style="width: 250px;margin-left: 3%"><b>What is digital marketing?</b></a>
+                    <a class="collapsible4" href="#" style="width: 250px;margin-left: 3%"><b>What is digital marketing?</b></a>
+                    <a class="collapsible5" href="#" style="width: 250px;margin-left: 3%"><b>What is digital marketing?</b></a>
+                    <div>
+                       <section class="row" id="ino" style="margin-top:14%">
+                       
+                         <div class="col-sm-6 wow fadeInLeft">
+                        <img class="img-responsive" src="images/about.png" alt="" style="height:600px;margin-top: -20%;margin-left: -14%">
+                    </div>
+
+                    <div class="col-sm-6 wow fadeInRight">
+                        <h2 class="column-title" style="font-size:43px">Social Media Management</h2>
+                        <p style="font-size:20px">Click400 Technologie With unique creativity and consistency, we are recognized as the best social media management agency in Jodhpur. Our team of expert manufacturers are dedicated to deliver ideas, ads, social media timelines. we providing a 360 degree digital management satisfaction to our clients.</p>
+
+                        <p style="font-size:20px">It doesn’t matter if you have a high-end budget with viral campaigns or low-end budget with branding motives, our dedicated team specializes in curating and executing social media management at all levels. Drop in your query below and our representatives shall be able to help you with your questions and questions.</p>
+                        <p style="font-size:20px"> <strong>Our Daily Action Plan:</strong></p>
+                        <ul class="listarrow">
+                            <li class="section-title wow fadeInLeftBig" style="font-size:20px"><i class="fa fa-angle-double-right fadeInUp"></i>Digital Marketing</li>
+                            <li class="section-title wow fadeInLeftBig" style="font-size:20px"><i class="fa fa-angle-double-right"></i>Web Development</li>
+                            <li class="section-title wow fadeInLeftBig" style="font-size:20px"><i class="fa fa-angle-double-right"></i>App Development</li>
+                            <li class="section-title wow fadeInLeftBig" style="font-size:20px"><i class="fa fa-angle-double-right"></i>Brand Development</li>
+
+                        </ul>
+
+
+                        <a class="btn btn-primary" href="#" style="height:40px;padding:10px;color:white; border-radius:0px;box-shadow:none;margin-left:-3px;margin-top:2%;border-radius:30px;box-shadow:10px 5px 18px gray">Contact Us&ensp; <i class="fa fa-arrow-circle-right"></i></a>
+                    </section>
+                        <section class="row" id="ino2" style="margin-top:14%">
+                       
+                         <div class="col-sm-6 wow fadeInLeft">
+                        <img class="img-responsive" src="images/about.png" alt="" style="height:600px;margin-top: -20%;margin-left: -14%">
+                    </div>
+
+                    <div class="col-sm-6 wow fadeInRight">
+                        <h2 class="column-title" style="font-size:33px">Enjoy Full-Service Digital Technologies Expertise</h2>
+                        <p style="font-size:23px">Click400 is an award-winning website development and digital marketing company in Jodhpur offering innovative solutions</p>
+
+                        <p style="font-size:20px">We are fortunate enough to work with fortune 500s and new startups. we enjoyed our journey to assist various companies to generate more profits by building awareness, driving web traffic, connecting with customers, and growing all over sales. We provide quality services for <strong>website development in Jodhpur</strong></p>
+
+
+
+                        <a class="btn btn-primary" href="#" style="height:40px;padding:10px;color:white; border-radius:0px;box-shadow:none;margin-left:-3px;margin-top:2%;border-radius:30px;box-shadow:10px 5px 18px gray">Contact Us&ensp; <i class="fa fa-arrow-circle-right"></i></a>
+                      </section>
+                        <section class="row" id="ino3" style="margin-top:14%">
+                       
+                     <div class="col-sm-6 wow fadeInLeft">
+                        <img class="img-responsive" src="images/about.png" alt="" style="height:600px;margin-top: -20%;margin-left: -14%">
+                    </div>
+
+                    <div class="col-sm-6 wow fadeInRight">
+                        <h2 class="column-title" style="font-size:33px">Enjoy Full-Service Digital Technologies Expertise</h2>
+                        <p style="font-size:23px">Click400 is an award-winning website development and digital marketing company in Jodhpur offering innovative solutions</p>
+
+                        <p style="font-size:20px">We are fortunate enough to work with fortune 500s and new startups. we enjoyed our journey to assist various companies to generate more profits by building awareness, driving web traffic, connecting with customers, and growing all over sales. We provide quality services for <strong>website development in Jodhpur</strong></p>
+
+
+
+                        <a class="btn btn-primary" href="#" style="height:40px;padding:10px;color:white; border-radius:0px;box-shadow:none;margin-left:-3px;margin-top:2%;border-radius:30px;box-shadow:10px 5px 18px gray">Contact Us&ensp; <i class="fa fa-arrow-circle-right"></i></a>
+                     </section>
+                        <section class="row" id="ino4" style="margin-top:14%">
+                       
+                      <div class="col-sm-6 wow fadeInLeft">
+                        <img class="img-responsive" src="images/about.png" alt="" style="height:600px;margin-top: -20%;margin-left: -14%">
+                    </div>
+
+                    <div class="col-sm-6 wow fadeInRight">
+                        <h2 class="column-title" style="font-size:33px">Enjoy Full-Service Digital Technologies Expertise</h2>
+                        <p style="font-size:23px">Click400 is an award-winning website development and digital marketing company in Jodhpur offering innovative solutions</p>
+
+                        <p style="font-size:20px">We are fortunate enough to work with fortune 500s and new startups. we enjoyed our journey to assist various companies to generate more profits by building awareness, driving web traffic, connecting with customers, and growing all over sales. We provide quality services for <strong>website development in Jodhpur</strong></p>
+
+
+
+                        <a class="btn btn-primary" href="#" style="height:40px;padding:10px;color:white; border-radius:0px;box-shadow:none;margin-left:-3px;margin-top:2%;border-radius:30px;box-shadow:10px 5px 18px gray">Contact Us&ensp; <i class="fa fa-arrow-circle-right"></i></a>
+                          </section>
+                </div>
+                </div>
+
+
+                
+            </div>
+        </section><!--/#about-->
+        <section id="business-stats" style="background:white">
+            <div class="container" style="border-radius: 20px; background: url('https://tse4.mm.bing.net/th?id=OIP.2bm_KznG6kFnXs5fHruSqAHaD7&pid=Api&P=0&w=289&h=154');box-shadow: 19px 28px 30px gray">
+                <div class="section-header">
+                    <h2 class="section-title wow fadeInDown" style="margin-top:2%;">Business Stats</h2>
+                    <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
+                </div>
+
+                <div class="row text-center">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                            <div class="business-stats" data-digit="85%" data-duration="1000" style=""></div>
+                            <strong>SEO & Marketing</strong>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                            <div class="business-stats" data-digit="75%" data-duration="1000"></div>
+                            <strong>Web development</strong>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
+                            <div class="business-stats" data-digit="66%" data-duration="1000"></div>
+                            <strong>App Development</strong>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
+                            <div class="business-stats" data-digit="70%" data-duration="1000"></div>
+                            <strong>Brand Development</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!--/#business-stats-->
+        
+        <section id="pricing">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title wow fadeInDown">Digital Marketing Pricing</h2>
+                    <p class="wow fadeInDown">We have experience working with large and small businesses and are ready to
+                        <br>develop a targeted strategy and plan that’s just right for you.</p>
+                </div>
+
+                <div class="row" style="margin-left: 2%;width: 1500px">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="0ms">
+                            <ul class="pricing">
+                                <li class="plan-header">
+                                    <div class="price-duration">
+                                        <span class="price">
+                                            ₹ 6,000
+                                        </span>
+                                        <span class="duration">
+                                            Monthly Package
+                                        </span>
+                                    </div>
+
+                                    <div class="plan-name">
+                                        STANDARD
+                                    </div>
+                                </li>
+                                <li>Daily Action Plan</li>
+                                <li>Daily Creative Content</li>
+                                <li>Social Media Optimization</li>
+                                <li>30+ Creative Content</li>
+                                <li>Social Media CRM</li>
+                                <li class="plan-purchase"><a class="btn btn-primary" href="#">Get It Now!</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
+                            <ul class="pricing featured">
+                                <li class="plan-header">
+                                    <div class="price-duration">
+                                        <span class="price">
+                                            ₹ 14,000
+                                        </span>
+                                        <span class="duration">Monthly Package
+
+                                        </span>
+                                    </div>
+
+                                    <div class="plan-name">
+                                        ECONOMY
+
+                                    </div>
+                                </li>
+                                <li>Complete Social Media Branding</li>
+                                <li>Complete SEO For 30 Days</li>
+                                <li>30+ Monthly Creative Content</li>
+                                <li>5+ Social Media Management</li>
+                                <li>5+ Social Media Management</li>
+                                <li class="plan-purchase"><a class="btn btn-primary" href="#">Get It Now!</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="400ms">
+                            <ul class="pricing">
+                                <li class="plan-header">
+                                    <div class="price-duration">
+                                        <span class="price">
+                                            ₹ 30,000
+                                        </span>
+                                        <span class="duration">
+                                            Monthly Package
+
+                                        </span>
+                                    </div>
+
+                                    <div class="plan-name">
+                                        EXECUTIVE
+
+                                    </div>
+                                </li>
+                                <li>Social Media Advertising</li>
+                                <li>Complete SEO For 30 Days</li>
+                                <li>Complete Sales Funnel</li>
+                                <li>30+ Post & 5+ Social Media Management</li>
+                                <li>Weekly Reporting</li>
+                                <li class="plan-purchase"><a class="btn btn-primary" href="#">Get It Now!</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section><!--/#pricing-->
+        
+<section id="about">
+            <div class="container">
+
+                <div class="section-header">
+                    <h2 class="section-title wow fadeInDown">Who We Are</h2>
+                    <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6 wow fadeInLeft">
+                        <img class="img-responsive" src="images/about.png" alt="" style="height:600px;margin-top: -20%;margin-left: -14%">
+                    </div>
+
+                    <div class="col-sm-6 wow fadeInRight">
+                        <h2 class="column-title" style="font-size:33px">We're on a Mission to Change Your View of Digital Marketing</h2>
+                        <p style="font-size:23px">Click400 is a values-driven<strong> Digital Marketing Company in Jodhpur.</strong></p>
+
+                        <p style="font-size:20px">Click400 has helped companies generate more revenue through digital marketing. Click400, since its inception in 2017, has helped Business and Marketing operations of several large & small; American, European, Chinese & Indian Brands and Startups. We have our offices in Jodhpur.</p>
+
+
+
+                        <button class="btn btn-primary" id="video" href="#" style="height: 50px;width: 50px;margin-top:5%;background: #0000cc;border-radius: 50px;transition: 0.25s;outline: none"><i class="fa fa-play" ></i></button>
+
+                    </div>
+                </div>
+            </div>
+        </section><!--/#about-->
+
+
+
+        <section id="about" style="background: none">
+            <div class="container">
+
+                <div class="section-header">
+                    <h2 class="section-title wow fadeInDown" >FAQ</h2>
+                    <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
+                </div>
+
+                <div class="row" style="height:10px">
+
+
+                    <div class="col-sm-6 wow fadeInRight" style="width: 100%;margin-bottom: 10%;">
+                        <h2 class="column-title" style="font-size:33px">Enjoy Full-Service Digital Technologies Expertise</h2>
+                        <div class="row text-center" style="position: absolute;margin-left:2%; width: 50%">
+
+
+                            <button class="collapsible"><b>What is digital marketing?</b></button>
+                            <div class="content">
+                                <p>Digital marketing involves marketing to people using Internet-connected electronic devices, namely computers, smartphones and tablets. Digital marketing focuses on channels such as search engines, social media, email, websites and apps to connect with prospects and customers.</p>
+                            </div>
+                            <button class="collapsible"><b>YouTube is important for marketing?</b></button>
+                            <div class="content">   
+                                <p>Yes, YouTube marketing is important to small businesses because of the potential for your video to go "viral" or get tons of views from a lot of potential customers. Click400 Technologies provide complete YouTube Marketing In Jodhpur.</p>
+                            </div>
+                            <button class="collapsible"><b>What are digital assets?</b></button>
+                            <div class="content">
+                                <p>Professionals in nearly every industry can agree on one thing: technology has sped up the business cycle. A glitch here and there may hold things up, but for the most part, it allows businesses to run faster, more efficiently, and more affordably. This is most apparent in the digital marketing strategy.</p>
+                            </div>
+                            <button class="collapsible"><b>Social Media marketing is important for small business.</b></button>
+                            <div class="content">
+                                <p>Social media marketing helps to validate your brand. A company's social media presence, when done correctly, tells consumers that their brand is active and focused on thriving communication with consumers. </p>
+                            </div>
+                        </div>
+                        <div class="row text-center" style="margin-left:60%;width: 50%">
+
+                            <button class="collapsible"><b>Which social media platforms should my business have a presence on?</b></button>
+                            <div class="content">
+                                <p>There is no set answer to this question because you need to have a presence wherever your customers are – and different businesses have different audiences.</p>
+                            </div>
+                            <button class="collapsible"><b>What is off page SEO link building?</b></button>
+                            <div class="content">
+                                <p>Google has said for years that the most important single factor to them is high quality content. Now more than ever, they have the ability.</p>
+                            </div>
+                            <button class="collapsible"><b>Best digital marketing company In Jodhpur?</b></button>
+                            <div class="content">
+                                <p>Click400 Technologies is one of then best digital marketing company in Jodhpur. We Provide Complete end to end digital marketing solution in Jodhpur.</p>
+                            </div>
+                            <button class="collapsible"><b>Best SEO Practices for High Quality Content</b></button>
+                            <div class="content">
+                                <p>We help ambitious businesses like yours generate more profits by building awareness, driving web traffic, connecting with customers.</p>
+                            </div>
+                            <script>
+                                var coll = document.getElementsByClassName("collapsible");
+                                var i;
+
+                                for (i = 0; i < coll.length; i++) {
+                                    coll[i].addEventListener("click", function () {
+                                        this.classList.toggle("active2");
+                                        var content = this.nextElementSibling;
+                                        if (content.style.maxHeight) {
+                                            content.style.maxHeight = null;
+                                        } else {
+                                            content.style.maxHeight = content.scrollHeight + "px";
+                                        }
+                                    });
+                                }
+                            </script>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="our-team">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title wow fadeInDown">Amazing Team</h2>
+                    <p class="wow fadeInDown">If we had a ‘secret sauce’ it would be our awesome people.
+                    <p>We have only professional team!</p></p>
+                </div>
+
+
+                <div class="row text-center" style="margin-left:10%">
+                    <div class="col-md-3 col-sm-6 col-xs-12" style="width:30%">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="images/team/arjun.jpg" alt="" style="height:300px;">
+                            </div>
+                            <div class="team-info">
+                                <h3>John Deo</h3>
+                                <span>Founder</span> 
+                            </div> 
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12" style="width:30%">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="images/team/narendra.jpeg" alt="" style="height:300px;">
+                            </div>
+                            <div class="team-info">
+                                <h3>Mike Timobbs</h3>
+                                <span>President</span> 
+                            </div> 
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12" style="width:30%">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="images/team/hibiki.jpg" alt="" style="height:300px;">
+                            </div>
+                            <div class="team-info">
+                                <h3>Remo Silvaus</h3>
+                                <span>Architect</span> 
+                            </div> 
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!--/#our-team-->
+
+        <section class="testimonial-area" id="testimonial">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title wow fadeInDown">Real Testimonial</h2>
+                    <p class="wow fadeInDown"><strong style="font-size: 20px">What They Say About
+                            <br>Our Company?</strong></p>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="single-testimonial animate_fade_in" style="opacity: 1; right: 0px;">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <blockquote>Sontrary to popular belief, Lorem Ipsuis no simply random text. It has roots in a piece of classical Layears old. belief, Lorem Ipsuis not simply</blockquote>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <img src="images/tifany.png" alt="client" style="height:90px">
+                                </div>
+                                <div class="col-xs-9 half-gutter">
+                                    <h5>Tiffany Galm</h5>
+                                    <h6>Lorem Ipsuis simply</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single-testimonial animate_fade_in" style="opacity: 1; right: 0px;">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <blockquote>Tontrary to popular belief, Lorem Ipsuis no simply random text. It has roots in a piece of classical Layears old. belief, Lorem Ipsuis not simply</blockquote>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <img src="images/pic2.jpg" alt="client">
+                                </div>
+                                <div class="col-xs-9 half-gutter">
+                                    <h5>John Bond</h5>
+                                    <h6>Lorem Ipsuis simply</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single-testimonial animate_fade_in" style="opacity: 1; right: 0px;">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <blockquote>Aontrary to popular belief, Lorem Ipsuis no simply random text. It has roots in a piece of classical Layears old. belief, Lorem Ipsuis not simply</blockquote>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <img src="images/pic1.jpg" alt="client">
+                                </div>
+                                <div class="col-xs-9 half-gutter">
+                                    <h5>John Bond</h5>
+                                    <h6>Lorem Ipsuis simply</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact-us">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title wow fadeInDown">Contact Us</h2>
+                    <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
+                </div>
+            </div>
+        </section><!--/#contact-us-->
+
+
+        <section id="contact">
+
+            <div class="container">
+                <div class="container contact-info">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-4">
+                            <div class="contact-form">
+                                <h3>Contact Info</h3>
+
+                                <address>
+                                    <strong>Amazing Company, Inc.</strong><br>
+                                    12345 NewYork, Street 125<br>
+                                    United States 94107<br>
+                                    <abbr title="Phone">P:</abbr> (123) 456-7890
+                                </address>
+                            </div></div>
+                        <div class="col-sm-8 col-md-8">
+                            <div class="contact-form">
+
+                                <form id="main-contact-form" name="contact-form" method="post" action="#">
+                                    <div class="form-group">
+                                        <input type="text" name="name" class="form-control" placeholder="Name" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" name="email" class="form-control" placeholder="Email" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea name="message" class="form-control" rows="8" placeholder="Message" required></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Send Message</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </section><!--/#bottom-->
+
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        &copy; 2015 Company Name. Template by <a target="_blank" href="http://webthemez.com/" title="Free Bootstrap Themes and HTML Templates">WebThemez.com</a>
+                    </div>
+                    <div class="col-sm-6">
+                        <ul class="social-icons">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
+                            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fa fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer><!--/#footer-->
+
+        <!-- GetButton.io widget -->
+        <script type="text/javascript">
+            (function () {
+                var options = {
+                    whatsapp: "+918452918276", // WhatsApp number
+                    email: "pandeyaayush81@gmail.com", // Email
+                    call_to_action: "Message us", // Call to action
+                    button_color: "#FF0000", // Color of button
+                    position: "left", // Position may be 'right' or 'left'
+                    order: "whatsapp,email", // Order of buttons
+                };
+                var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = url + '/widget-send-button/js/init.js';
+                s.onload = function () {
+                    WhWidgetSendButton.init(host, proto, options);
+                };
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            })();
+        </script>
+        <!-- /GetButton.io widget -->
+
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script> 
+        <script src="js/mousescroll.js"></script>
+        <script src="js/smoothscroll.js"></script>
+        <script src="js/jquery.prettyPhoto.js"></script>
+        <script src="js/jquery.isotope.min.js"></script>
+        <script src="js/jquery.inview.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/custom-scripts.js"></script>
+        <script>
+      $(".collapsible2").click(function(e){
+         e.preventDefault();
+         $("#ino2").hide();
+         $("#ino3").hide();
+         $("#ino4").hide();
+         $("#ino").show();
+         $(".collapsible2").css("box-shadow","none");
+          $(".collapsible2").css("background","#0099ff");
+           $(".collapsible2").css("color","white");
+           
+             $(".collapsible3").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible3").css("background","#666666");
+           $(".collapsible3").css("color","#cccccc");
+           
+            $(".collapsible4").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible4").css("background","#666666");
+           $(".collapsible4").css("color","#cccccc");
+           
+            $(".collapsible5").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible5").css("background","#666666");
+           $(".collapsible5").css("color","#cccccc");
+          
+      });
+       $(".collapsible3").click(function(e){
+         e.preventDefault();
+         $("#ino2").show();
+         $("#ino3").hide();
+         $("#ino4").hide();
+         $("#ino").hide();
+             $(".collapsible3").css("box-shadow","none");
+          $(".collapsible3").css("background","#0099ff");
+           $(".collapsible3").css("color","white");
+           
+              $(".collapsible2").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible2").css("background","#666666");
+           $(".collapsible2").css("color","#cccccc");
+           
+              $(".collapsible4").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible4").css("background","#666666");
+           $(".collapsible4").css("color","#cccccc");
+           
+              $(".collapsible5").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible5").css("background","#666666");
+           $(".collapsible5").css("color","#cccccc");
+          
+      });
+       $(".collapsible4").click(function(e){
+         e.preventDefault();
+         $("#ino2").hide();
+         $("#ino3").show();
+         $("#ino4").hide();
+         $("#ino").hide();
+         
+             $(".collapsible4").css("box-shadow","none");
+          $(".collapsible4").css("background","#0099ff");
+           $(".collapsible4").css("color","white");
+           
+            $(".collapsible2").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible2").css("background","#666666");
+           $(".collapsible2").css("color","#cccccc");
+           
+            $(".collapsible3").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible3").css("background","#666666");
+           $(".collapsible3").css("color","#cccccc");
+           
+            $(".collapsible5").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible5").css("background","#666666");
+           $(".collapsible5").css("color","#cccccc");
+          
+      });
+       $(".collapsible5").click(function(e){
+         e.preventDefault();
+         $("#ino2").hide();
+         $("#ino3").hide();
+         $("#ino4").show();
+         $("#ino").hide();
+         
+             $(".collapsible5").css("box-shadow","none");
+          $(".collapsible5").css("background","#0099ff");
+           $(".collapsible5").css("color","white");
+           
+            $(".collapsible2").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible2").css("background","#666666");
+           $(".collapsible2").css("color","#cccccc");
+           
+            $(".collapsible3").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible3").css("background","#666666");
+           $(".collapsible3").css("color","#cccccc");
+           
+            $(".collapsible4").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible4").css("background","#666666");
+           $(".collapsible4").css("color","#cccccc");
+          
+      });
+        </script>
+    </body>
+</html>
+<!--.switch a{
+            background: #666666;
+            padding: 20px;
+            margin-left: 6%;
+            text-decoration: none;
+            color: #cccccc;
+            border-radius: 10px;
+            box-shadow: 10px 5px 18px gray;
+        }
+        .switch a:hover{
+            background: #0099ff;
+            color: white;-->
+        
