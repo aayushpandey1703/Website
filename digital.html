@@ -208,17 +208,7 @@
             background-color: #f1f1f1;
         }
        
-        button:hover{
-            box-shadow: 10px 5px 18px gray;
-            background: #ff0000
-            
-        }
-         .switch section{
-            display: none;
-        }
-         .switch section:target{
-            display: block;
-        }
+       
         .switch a{
             background: #666666;
             padding: 20px;
@@ -236,16 +226,148 @@
         #ino{
             display:block;
         }
-       
+        #ino2{
+            display:none;
+        }
+        #ino3{
+            display:none;
+        }
+        #ino4{
+            display:none;
+        }
+        #ino5{
+            display:none;
+        }
+        #ino6{
+            display:none;
+        }
+        #ino7{
+            display:none;
+        }
+
+       .collapsible2{
+            cursor: pointer;
+            font-size:20px;
+            padding: 25px;
+            width: 170px;
+           box-shadow: none;
+           background: #0099ff; 
+           color: white; 
+            border: none;
+            text-align: left;
+            outline: none;
+          
+            border-radius: 10px;
+            margin-top: 2%;
+            transition:.25s;
+       }
+
+       .collapsible3{
+           width: 250px;margin-left: 3%;
+            color: black;
+            cursor: pointer;
+            background:#E6E6E6;
+            padding: 25px;
+            width: 170px;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 20px;
+            border-radius: 10px;
+            margin-top: 2%;
+            box-shadow: 5px 10px 18px #888888;
+            transition:.25s;
+       } 
+       .collapsible4{
+          width: 250px;margin-left: 3%;
+            color: black;
+            cursor: pointer;
+            background:#E6E6E6;
+            padding: 25px;
+            width: 170px;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 20px;
+            border-radius: 10px;
+            margin-top: 2%;
+            box-shadow: 5px 10px 18px #888888;
+            transition:.25s;
+       } 
+       .collapsible5{
+        width: 250px;margin-left: 3%;
+            color: black;
+            cursor: pointer;
+            background:#E6E6E6;
+            padding: 25px;
+            width: 170px;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 20px;
+            border-radius: 10px;
+            margin-top: 2%;
+            box-shadow: 5px 10px 18px #888888;
+            transition:.25s;
+       }
+       .collapsible6{
+          width: 250px;margin-left: 3%;
+            color: black;
+            cursor: pointer;
+            background:#E6E6E6;
+            padding: 25px;          
+            width: 170px;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 20px;
+            border-radius: 10px;
+            margin-top: 2%;
+            box-shadow: 5px 10px 18px #888888;
+            transition:.25s;
+       } 
+       .collapsible7{
+           width: 250px;margin-left: 3%;
+            color: black;
+            cursor: pointer;
+            background:#E6E6E6;
+            padding: 25px;
+            width: 170px;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 20px;
+            border-radius: 10px;
+            margin-top: 2%;
+            box-shadow: 5px 10px 18px #888888;
+            transition:.25s;
+       }
+        .collapsible2:hover{
+             background: #0099ff;
+             color:white;
+         }.collapsible3:hover{
+             background: #0099ff;
+             color:white;
+         }.collapsible4:hover{
+             background: #0099ff;
+             color:white;
+         }.collapsible5:hover{
+             background: #0099ff;
+             color:white;
+         }.collapsible6:hover{
+             background: #0099ff;
+             color:white;
+         }.collapsible7:hover{
+             background: #0099ff;
+             color:white;
+         }
     </style>
     <body id="home">
 
-        <header id="header" style="background: black;">
-
-            <nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="banner"  style="background: black;height: 80px;box-shadow:10px 5px 18px gray">
-
+         <header id="header" style="background: black;">
+            <nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="banner"  style="background: black;box-shadow:10px 5px 18px gray">
                 <div class="container">
-                    <div class="navbar-header" >
+                    <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
@@ -256,32 +378,43 @@
                     </div>
 
                     <div class="collapse navbar-collapse navbar-right">
-                        <ul class="nav navbar-nav" >
-                            <li class="scroll active" style="height: 80px"><a href="#home">Home</a></li> 
-                            <li class="dropdown">
+                        <ul class="nav navbar-nav">
+                            <li class="scroll"><a href="index.html">Home</a></li> 
+                           
+                             <li class="dropdown active">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">IT Services <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="sidebar-right.html">Right Sidebar</a></li>
-                                    <li><a href="#">Dummy Link1</a></li>
-                                    <li><a href="#">Dummy Link2</a></li>
-                                    <li><a href="#">Dummy Link3</a></li>
+                                    <li class="scroll active"><a href="digital.html">Digital Marketing</a></li>
+                                    <li><a href="#">Web Development</a></li>
+                                    <li><a href="#">App Development</a></li>
+                                    <li><a href="#">Shopify Development</a></li>
+                                    <li><a href="#">Search Engine Optimization Development</a></li>
                                 </ul>
+                                 
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">IT Services <b class="caret"></b></a>
+                              <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Brand Development <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="sidebar-right.html">Right Sidebar</a></li>
-                                    <li><a href="#">Dummy Link1</a></li>
-                                    <li><a href="#">Dummy Link2</a></li>
-                                    <li><a href="#">Dummy Link3</a></li>
+                                    <li><a href="sidebar-right.html">Logo Designing</a></li>
+                                    <li><a href="#">Graphic Designing</a></li>
+                                    <li><a href="#">Content Writing</a></li>
+                                    <li><a href="#">Product Photography</a></li>
                                 </ul>
                             </li>
-                            <li class="scroll" style="height: 80px"><a href="#about" >About Company</a></li> 
-                            <li class="scroll" style="height: 80px"><a href="#pricing">Pricing</a></li>
-                            <li class="scroll" style="height: 80px"><a href="#our-team">Team</a></li>
-                            <li class="scroll" style="height: 80px"><a href="#contact-us">Contact</a></li>     
+                            <li class="scroll"><a href="#">About Company</a></li> 
+                            <li class="scroll"><a href="#">Portfolio</a></li>
 
-
+                             <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="digital.html">FAQs</a></li>
+                                    <li><a href="#">Free a Quote</a></li>
+                                    <li><a href="#">Professional Team</a></li>
+                             
+                                </ul>
+                                 
+                            </li>
+                           
                         </ul>
                     </div>
                 </div><!--/.container-->
@@ -514,7 +647,7 @@
             </div><!--/.container-->
         </section><!--/#portfolio-->
 
-        <div id="container" style="border:none;width: 1000px;margin-top:10%">
+        <div id="container" style="border:none;width: 1000px;">
 
             <div class="section-header">
                 <h2 class="section-title wow fadeInDown">Partners With</h2>
@@ -533,27 +666,59 @@
             </div>
         </div>
        
-              
+         
         
-        <section id="about" style="width:100%;margin-top:-10%;background:none;">
+        <section id="about" style="width:100%;margin-top:-10%;">
            <div class="container" id="contain"> 
                 <div class="section-header" >
                     <h2 class="section-title wow fadeInDown" >BUILD YOUR SMALL BUSINESS</h2>
                     <p class="wow fadeInDown" style="font-size:20px">Take Advantage of Click400's Small Business Launchpad!</p>
                 </div>
-                <div class="switch" style="margin-top:10%;" >
-                    <a class="collapsible2" href="#" style=" box-shadow: none; background: #0099ff; color: white;"><b>Social Media Marketing</b></a>
-                    <a class="collapsible3" href="#ino2" style="width: 250px;margin-left: 3%"><b>What is digital marketing?</b></a>
-                    <a class="collapsible4" href="#" style="width: 250px;margin-left: 3%"><b>What is digital marketing?</b></a>
-                    <a class="collapsible5" href="#" style="width: 250px;margin-left: 3%"><b>What is digital marketing?</b></a>
+                <div class="switch" style="margin-top:10%;margin-left:-5%; width:110%" >
+                    <button class="collapsible2" href="#"><b>Social Media Marketing</b></button>
+                    <button class="collapsible3" href="#"><b>Social Media Management</b></button>
+                    <button class="collapsible5" href="#" ><b>Search Enigne Optimization</b></button>
+                    <button class="collapsible4" href="#" ><b>Search Enigne Marketing</b></button>
+                    <button class="collapsible6" href="#" ><b>Content Writeup Marketing</b></button>
+                    <button class="collapsible7" href="#" ><b>YouTube Video Marketing</b></button>
+  
                     <div>
-                       <section class="row" id="ino" style="margin-top:14%">
+          
+                </div>
+                </div>
+
+
+                
+            </div>
+        </section><!--/#about-->
+
+        <section id="services" style="background:none;margin-top:-5%">
+            <div class="container">
+                <section class="row" id="ino" style="margin-top:14%">
+                                                                                   
+                         <div class="col-sm-6">                     
+                        <img class="img-responsive" src="images/digital/social1.jpg" alt="" style="height:600px;margin-top: -20%;margin-left: -14%">
+                    </div>                                                         
+                                                                                   
+                    <div class="col-sm-6">                         
+                        <h2 class="column-title" style="font-size:43px">Social Media Marketing</h2>
+                        <p style="font-size:20px">We offer social media marketing in Jodhpur that helps you reach your target audience in the best possible way. We know how to establish the most important metric for your company. </p>
+
+                        <p style="font-size:20px">Discussing business undertakings, desires, and functions the company will create a bespoke digital marketing plan. Meet with the number #1 <strong>social media marketing agency in Jodhpur</strong>.</p>
+                        <p style="font-size:20px">We have expertise and techniques like targeting the relevant audience, COBRAs (Consumer’s online brand-related activities), eWOM (electronic word of mouth), etc. to put you on an edge above your competitor on various social platforms such as Facebook, Twitter, LinkedIn, YouTube and many more as per your requirement.</p>
+
+
+
+                        <a class="btn btn-primary" href="#" style="height:40px;padding:10px;color:white; border-radius:0px;box-shadow:none;margin-left:-3px;margin-top:2%;border-radius:30px;box-shadow:10px 5px 18px gray">Contact Us&ensp; <i class="fa fa-arrow-circle-right"></i></a>
+                      </section>
+
+                    <section class="row" id="ino2" style="margin-top:14%">
                        
-                         <div class="col-sm-6 wow fadeInLeft">
-                        <img class="img-responsive" src="images/about.png" alt="" style="height:600px;margin-top: -20%;margin-left: -14%">
+                         <div class="col-sm-6">
+                        <img class="img-responsive" src="images/digital/social2.jpg" alt="" style="height:600px;margin-top: -20%;margin-left: -14%">
                     </div>
 
-                    <div class="col-sm-6 wow fadeInRight">
+                    <div class="col-sm-6">
                         <h2 class="column-title" style="font-size:43px">Social Media Management</h2>
                         <p style="font-size:20px">Click400 Technologie With unique creativity and consistency, we are recognized as the best social media management agency in Jodhpur. Our team of expert manufacturers are dedicated to deliver ideas, ads, social media timelines. we providing a 360 degree digital management satisfaction to our clients.</p>
 
@@ -569,102 +734,97 @@
 
 
                         <a class="btn btn-primary" href="#" style="height:40px;padding:10px;color:white; border-radius:0px;box-shadow:none;margin-left:-3px;margin-top:2%;border-radius:30px;box-shadow:10px 5px 18px gray">Contact Us&ensp; <i class="fa fa-arrow-circle-right"></i></a>
-                    </section>
-                        <section class="row" id="ino2" style="margin-top:14%">
+                    </section>              
+                   
+
+                        <section class="row" id="ino4" style="margin-top:14%">
                        
-                         <div class="col-sm-6 wow fadeInLeft">
-                        <img class="img-responsive" src="images/about.png" alt="" style="height:600px;margin-top: -20%;margin-left: -14%">
+                     <div class="col-sm-6">
+                        <img class="img-responsive" src="images/digital/search1.jpg" alt="" style="height:600px;margin-top: -20%;margin-left: -14%">
                     </div>
 
-                    <div class="col-sm-6 wow fadeInRight">
-                        <h2 class="column-title" style="font-size:33px">Enjoy Full-Service Digital Technologies Expertise</h2>
-                        <p style="font-size:23px">Click400 is an award-winning website development and digital marketing company in Jodhpur offering innovative solutions</p>
+                    <div class="col-sm-6">
+                        <h2 class="column-title" style="font-size:43px">Search Engine Optimization</h2>
+                        <p style="font-size:20px">Being the best leading <strong></strong>SEO company in Jodhpur</strong>, we help businesses of all sizes get better search engine rankings with our SEO services. </p>
 
-                        <p style="font-size:20px">We are fortunate enough to work with fortune 500s and new startups. we enjoyed our journey to assist various companies to generate more profits by building awareness, driving web traffic, connecting with customers, and growing all over sales. We provide quality services for <strong>website development in Jodhpur</strong></p>
-
-
-
-                        <a class="btn btn-primary" href="#" style="height:40px;padding:10px;color:white; border-radius:0px;box-shadow:none;margin-left:-3px;margin-top:2%;border-radius:30px;box-shadow:10px 5px 18px gray">Contact Us&ensp; <i class="fa fa-arrow-circle-right"></i></a>
-                      </section>
-                        <section class="row" id="ino3" style="margin-top:14%">
-                       
-                     <div class="col-sm-6 wow fadeInLeft">
-                        <img class="img-responsive" src="images/about.png" alt="" style="height:600px;margin-top: -20%;margin-left: -14%">
-                    </div>
-
-                    <div class="col-sm-6 wow fadeInRight">
-                        <h2 class="column-title" style="font-size:33px">Enjoy Full-Service Digital Technologies Expertise</h2>
-                        <p style="font-size:23px">Click400 is an award-winning website development and digital marketing company in Jodhpur offering innovative solutions</p>
-
-                        <p style="font-size:20px">We are fortunate enough to work with fortune 500s and new startups. we enjoyed our journey to assist various companies to generate more profits by building awareness, driving web traffic, connecting with customers, and growing all over sales. We provide quality services for <strong>website development in Jodhpur</strong></p>
+                        <p style="font-size:20px">SEO has become a recent tool to advertise any business on google search results so that the visibility of a company can get increased website traffic on all the popular search engines. With the help of the SEO method, it can be easily ensured that a website gets a top ranking on Google so that higher traffic can also be generated.</p>
+                        <p style="font-size:20px">We, at Click400 Technologies, always look forward to providing website development and deliver SEO Services in a way that is unique and profitable for our clients. We provide all digital marketing services including Website Design & Development, eCommerce Solutions as per the guidelines that are provided by Google for SEO. We follow SEO rules and believe that every eCommerce SEO Company in Jodhpur must follow to make sure that all their clients can get the best SEO services.</p>
 
 
 
                         <a class="btn btn-primary" href="#" style="height:40px;padding:10px;color:white; border-radius:0px;box-shadow:none;margin-left:-3px;margin-top:2%;border-radius:30px;box-shadow:10px 5px 18px gray">Contact Us&ensp; <i class="fa fa-arrow-circle-right"></i></a>
                      </section>
-                        <section class="row" id="ino4" style="margin-top:14%">
+
+                
+                        <section class="row" id="ino3" style="margin-top:14%">
                        
-                      <div class="col-sm-6 wow fadeInLeft">
-                        <img class="img-responsive" src="images/about.png" alt="" style="height:600px;margin-top: -20%;margin-left: -14%">
+                      <div class="col-sm-6">
+                        <img class="img-responsive" src="images/digital/search2.png" alt="" style="height:600px;margin-top: -20%;margin-left: -14%">
                     </div>
 
-                    <div class="col-sm-6 wow fadeInRight">
-                        <h2 class="column-title" style="font-size:33px">Enjoy Full-Service Digital Technologies Expertise</h2>
-                        <p style="font-size:23px">Click400 is an award-winning website development and digital marketing company in Jodhpur offering innovative solutions</p>
+                    <div class="col-sm-6">
+                        <h2 class="column-title" style="font-size:43px">Search Engine Marketing</h2>
+                        <p style="font-size:20px">Click400 Technologies is one of the #1 Search Engine Marketing Company in Jodhpur with 100+ success case study. we regularly monitor and keep a check on the running PPC campaigns using data analytics to further strategize the next marketing move while always aiming for higher ad positions at lower costs.</p>
 
-                        <p style="font-size:20px">We are fortunate enough to work with fortune 500s and new startups. we enjoyed our journey to assist various companies to generate more profits by building awareness, driving web traffic, connecting with customers, and growing all over sales. We provide quality services for <strong>website development in Jodhpur</strong></p>
+                        <p style="font-size:20px">Click400 Technologies follows a structured process comprising keyword research and selection, competitor analysis, bid management, ad copy creation and ad placements on the search engines.</p>
 
 
 
                         <a class="btn btn-primary" href="#" style="height:40px;padding:10px;color:white; border-radius:0px;box-shadow:none;margin-left:-3px;margin-top:2%;border-radius:30px;box-shadow:10px 5px 18px gray">Contact Us&ensp; <i class="fa fa-arrow-circle-right"></i></a>
                           </section>
-                </div>
-                </div>
+
+                <section class="row" id="ino5" style="margin-top:14%">
+                       
+                      <div class="col-sm-6">
+                        <img class="img-responsive" src="images/digital/content.png" alt="" style="height:600px;margin-top: -20%;margin-left: -14%">
+                    </div>
+
+                    <div class="col-sm-6">
+                        <h2 class="column-title" style="font-size:43px">Content Marketing</h2>
+                        <p style="font-size:20px">Click400 Technologies as your <strong>content writing company 
+                        in Jodhpur</strong>. we understand that content needs to be promoted with the right approach.
+                        Every article, blog or anything which is related to the content is put through a right 
+                        set of standard and promote with a right keyword plan as well as rigorous research. 
+                        As a <strong>digital marketing company in Jodhpur</strong>, we are completely focused on making sure 
+                        that your website should have eye-catching content that attracts the search engine of
+                        the internet and the audience. Our expert content writing team creates great content that
+                        positively impacts your brand’s SEO and inbound lead generation.</p>
 
 
-                
+
+
+                        <a class="btn btn-primary" href="#" style="height:40px;padding:10px;color:white; border-radius:0px;box-shadow:none;margin-left:-3px;margin-top:2%;border-radius:30px;box-shadow:10px 5px 18px gray">Contact Us&ensp; <i class="fa fa-arrow-circle-right"></i></a>
+                          </section>
+
+                 <section class="row" id="ino6" style="margin-top:14%">
+                       
+                      <div class="col-sm-6">
+                        <img class="img-responsive" src="images/digital/youtube.png" alt="" style="height:600px;margin-top: -20%;margin-left: -14%">
+                    </div>
+
+                    <div class="col-sm-6">
+                        <h2 class="column-title" style="font-size:43px">YouTube Marketing</h2>
+                        <p style="font-size:20px">Click400 Technologies is one name that has known for its unique quality customer satisfaction services. With its proper research and innovative techniques, the company uploads all your videos on YouTube with ease.</p>
+
+                        <p style="font-size:20px">Our SEO Tech Experts has a team of professionals who are committed to deliver excellence therefore they 
+                        strive to use adopt best-in class techniques and methods to offer valuable services. Knowing the fact that YouTube views increase
+                        the sales, each of the professionals also helps to make your video more customers centric. With their best of efforts, they aim 
+                        to make your business a brand in the market. So choose SEO Tech Experts for better, profitable and productive results!</p>
+
+
+
+                        <a class="btn btn-primary" href="#" style="height:40px;padding:10px;color:white; border-radius:0px;box-shadow:none;margin-left:-3px;margin-top:2%;border-radius:30px;box-shadow:10px 5px 18px gray">Contact Us&ensp; <i class="fa fa-arrow-circle-right"></i></a>
+                          </section>
+
+
             </div>
-        </section><!--/#about-->
-        <section id="business-stats" style="background:white">
-            <div class="container" style="border-radius: 20px; background: url('https://tse4.mm.bing.net/th?id=OIP.2bm_KznG6kFnXs5fHruSqAHaD7&pid=Api&P=0&w=289&h=154');box-shadow: 19px 28px 30px gray">
-                <div class="section-header">
-                    <h2 class="section-title wow fadeInDown" style="margin-top:2%;">Business Stats</h2>
-                    <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
-                </div>
-
-                <div class="row text-center">
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
-                            <div class="business-stats" data-digit="85%" data-duration="1000" style=""></div>
-                            <strong>SEO & Marketing</strong>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
-                            <div class="business-stats" data-digit="75%" data-duration="1000"></div>
-                            <strong>Web development</strong>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
-                            <div class="business-stats" data-digit="66%" data-duration="1000"></div>
-                            <strong>App Development</strong>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
-                            <div class="business-stats" data-digit="70%" data-duration="1000"></div>
-                            <strong>Brand Development</strong>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><!--/#business-stats-->
+        </section>
+       
         
         <section id="pricing">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-title wow fadeInDown">Digital Marketing Pricing</h2>
+                    <h2 class="section-title wow fadeInDown">Digital Marketing Plan</h2>
                     <p class="wow fadeInDown">We have experience working with large and small businesses and are ready to
                         <br>develop a targeted strategy and plan that’s just right for you.</p>
                 </div>
@@ -755,13 +915,49 @@
                 </div>
             </div>
         </section><!--/#pricing-->
+
+         <section id="business-stats" style="background:white;">
+            <div class="container" style="border-radius: 20px; background: url('https://tse4.mm.bing.net/th?id=OIP.2bm_KznG6kFnXs5fHruSqAHaD7&pid=Api&P=0&w=289&h=154');box-shadow: 19px 28px 30px gray">
+                <div class="section-header">
+                    <h2 class="section-title wow fadeInDown" style="margin-top:2%;">Business Stats</h2>
+                    <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
+                </div>
+
+                <div class="row text-center">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                            <div class="business-stats" data-digit="330" data-duration="300" style=""></div><i style="margin-left:-19%;font-size:25px">+</i>
+                            <strong style="margin-left:10%">Active Clients</strong>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                            <div class="business-stats" data-digit="850" data-duration="1000"></div><i style="margin-left:-19%;font-size:25px">+</i>
+                            <strong style="margin-left:13%">Project Done</strong>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
+                            <div class="business-stats" data-digit="25" data-duration="1000"></div><i style="margin-left:-21%;font-size:25px">+</i>
+                            <strong style="margin-left:13%">Team Advisor</strong>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
+                            <div class="business-stats" data-digit="10" data-duration="1000"></div><i style="margin-left:-21%;font-size:25px">+</i>
+                            <strong style="margin-left:13%">Glorious Years</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!--/#business-stats-->
         
 <section id="about">
             <div class="container">
 
                 <div class="section-header">
                     <h2 class="section-title wow fadeInDown">Who We Are</h2>
-                    <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
+                
                 </div>
 
                 <div class="row">
@@ -773,12 +969,9 @@
                         <h2 class="column-title" style="font-size:33px">We're on a Mission to Change Your View of Digital Marketing</h2>
                         <p style="font-size:23px">Click400 is a values-driven<strong> Digital Marketing Company in Jodhpur.</strong></p>
 
-                        <p style="font-size:20px">Click400 has helped companies generate more revenue through digital marketing. Click400, since its inception in 2017, has helped Business and Marketing operations of several large & small; American, European, Chinese & Indian Brands and Startups. We have our offices in Jodhpur.</p>
-
-
-
-                        <button class="btn btn-primary" id="video" href="#" style="height: 50px;width: 50px;margin-top:5%;background: #0000cc;border-radius: 50px;transition: 0.25s;outline: none"><i class="fa fa-play" ></i></button>
-
+                        <p style="font-size:20px">Click400 has helped companies generate more revenue through digital marketing. 
+                        Click400, since its inception in 2017, has helped Business and Marketing operations of several large & small; 
+                        American, European, Chinese & Indian Brands and Startups. We have our offices in Jodhpur.</p>
                     </div>
                 </div>
             </div>
@@ -1091,22 +1284,32 @@
          $("#ino2").hide();
          $("#ino3").hide();
          $("#ino4").hide();
+         $("#ino5").hide();
+         $("#ino6").hide();
          $("#ino").show();
          $(".collapsible2").css("box-shadow","none");
           $(".collapsible2").css("background","#0099ff");
            $(".collapsible2").css("color","white");
            
              $(".collapsible3").css("box-shadow","10px 5px 18px gray");
-          $(".collapsible3").css("background","#666666");
-           $(".collapsible3").css("color","#cccccc");
+          $(".collapsible3").css("background","#E6E6E6");
+           $(".collapsible3").css("color","black");
            
             $(".collapsible4").css("box-shadow","10px 5px 18px gray");
-          $(".collapsible4").css("background","#666666");
-           $(".collapsible4").css("color","#cccccc");
+          $(".collapsible4").css("background","#E6E6E6");
+           $(".collapsible4").css("color","black");
            
             $(".collapsible5").css("box-shadow","10px 5px 18px gray");
-          $(".collapsible5").css("background","#666666");
-           $(".collapsible5").css("color","#cccccc");
+          $(".collapsible5").css("background","#E6E6E6");
+          $(".collapsible5").css("color", "black");
+
+           $(".collapsible6").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible6").css("background","#E6E6E6");
+          $(".collapsible6").css("color", "black");
+
+           $(".collapsible7").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible7").css("background","#E6E6E6");
+           $(".collapsible7").css("color","black");
           
       });
        $(".collapsible3").click(function(e){
@@ -1114,22 +1317,32 @@
          $("#ino2").show();
          $("#ino3").hide();
          $("#ino4").hide();
+         $("#ino5").hide();
+         $("#ino6").hide();
          $("#ino").hide();
              $(".collapsible3").css("box-shadow","none");
           $(".collapsible3").css("background","#0099ff");
            $(".collapsible3").css("color","white");
            
               $(".collapsible2").css("box-shadow","10px 5px 18px gray");
-          $(".collapsible2").css("background","#666666");
-           $(".collapsible2").css("color","#cccccc");
+          $(".collapsible2").css("background","#E6E6E6");
+           $(".collapsible2").css("color","black");
            
               $(".collapsible4").css("box-shadow","10px 5px 18px gray");
-          $(".collapsible4").css("background","#666666");
-           $(".collapsible4").css("color","#cccccc");
+          $(".collapsible4").css("background","#E6E6E6");
+           $(".collapsible4").css("color","black");
            
               $(".collapsible5").css("box-shadow","10px 5px 18px gray");
-          $(".collapsible5").css("background","#666666");
-           $(".collapsible5").css("color","#cccccc");
+          $(".collapsible5").css("background","#E6E6E6");
+           $(".collapsible5").css("color", "black");
+
+            $(".collapsible6").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible6").css("background","#E6E6E6");
+           $(".collapsible6").css("color", "black");
+
+            $(".collapsible7").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible7").css("background","#E6E6E6");
+           $(".collapsible7").css("color","black");
           
       });
        $(".collapsible4").click(function(e){
@@ -1137,6 +1350,8 @@
          $("#ino2").hide();
          $("#ino3").show();
          $("#ino4").hide();
+         $("#ino5").hide();
+         $("#ino6").hide();
          $("#ino").hide();
          
              $(".collapsible4").css("box-shadow","none");
@@ -1144,23 +1359,33 @@
            $(".collapsible4").css("color","white");
            
             $(".collapsible2").css("box-shadow","10px 5px 18px gray");
-          $(".collapsible2").css("background","#666666");
-           $(".collapsible2").css("color","#cccccc");
+          $(".collapsible2").css("background","#E6E6E6");
+           $(".collapsible2").css("color","black");
            
             $(".collapsible3").css("box-shadow","10px 5px 18px gray");
-          $(".collapsible3").css("background","#666666");
-           $(".collapsible3").css("color","#cccccc");
+          $(".collapsible3").css("background","#E6E6E6");
+           $(".collapsible3").css("color","black");
            
             $(".collapsible5").css("box-shadow","10px 5px 18px gray");
-          $(".collapsible5").css("background","#666666");
-           $(".collapsible5").css("color","#cccccc");
+          $(".collapsible5").css("background","#E6E6E6");
+           $(".collapsible5").css("color", "black");
+
+            $(".collapsible6").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible6").css("background","#E6E6E6");
+           $(".collapsible6").css("color", "black");
+
+            $(".collapsible7").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible7").css("background","#E6E6E6");
+           $(".collapsible7").css("color","black");
           
       });
        $(".collapsible5").click(function(e){
          e.preventDefault();
          $("#ino2").hide();
          $("#ino3").hide();
-         $("#ino4").show();
+           $("#ino4").show();
+           $("#ino5").hide();
+           $("#ino6").hide();
          $("#ino").hide();
          
              $(".collapsible5").css("box-shadow","none");
@@ -1168,16 +1393,96 @@
            $(".collapsible5").css("color","white");
            
             $(".collapsible2").css("box-shadow","10px 5px 18px gray");
-          $(".collapsible2").css("background","#666666");
-           $(".collapsible2").css("color","#cccccc");
+          $(".collapsible2").css("background","#E6E6E6");
+           $(".collapsible2").css("color","black");
            
             $(".collapsible3").css("box-shadow","10px 5px 18px gray");
-          $(".collapsible3").css("background","#666666");
-           $(".collapsible3").css("color","#cccccc");
+          $(".collapsible3").css("background","#E6E6E6");
+           $(".collapsible3").css("color","black");
            
             $(".collapsible4").css("box-shadow","10px 5px 18px gray");
-          $(".collapsible4").css("background","#666666");
-           $(".collapsible4").css("color","#cccccc");
+          $(".collapsible4").css("background","#E6E6E6");
+           $(".collapsible4").css("color", "black");
+
+            $(".collapsible7").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible7").css("background","#E6E6E6");
+           $(".collapsible7").css("color", "black");
+
+            $(".collapsible6").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible6").css("background","#E6E6E6");
+           $(".collapsible6").css("color","black");
+          
+       });
+            $(".collapsible6").click(function (e) {
+         e.preventDefault();
+         $("#ino2").hide();
+                $("#ino3").hide();
+                $("#ino5").show();
+         $("#ino4").hide();
+         $("#ino6").hide();
+         $("#ino").hide();
+         
+             $(".collapsible6").css("box-shadow","none");
+          $(".collapsible6").css("background","#0099ff");
+           $(".collapsible6").css("color","white");
+           
+            $(".collapsible2").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible2").css("background","#E6E6E6");
+           $(".collapsible2").css("color","black");
+
+ $(".collapsible5").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible5").css("background","#E6E6E6");
+           $(".collapsible5").css("color","black");
+
+ $(".collapsible7").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible7").css("background","#E6E6E6");
+           $(".collapsible7").css("color","black");
+
+
+            $(".collapsible3").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible3").css("background","#E6E6E6");
+           $(".collapsible3").css("color","black");
+           
+            $(".collapsible4").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible4").css("background","#E6E6E6");
+           $(".collapsible4").css("color","black");
+          
+      });$(".collapsible7").click(function(e){
+         e.preventDefault();
+         $("#ino2").hide();
+         $("#ino3").hide();
+          $("#ino5").hide();
+          $("#ino4").hide();
+          $("#ino6").show();
+          $("#ino").hide();
+         
+             $(".collapsible7").css("box-shadow","none");
+          $(".collapsible7").css("background","#0099ff");
+           $(".collapsible7").css("color","white");
+           
+            $(".collapsible5").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible5").css("background","#E6E6E6");
+          $(".collapsible5").css("color", "black");
+
+          
+            $(".collapsible6").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible6").css("background","#E6E6E6");
+          $(".collapsible6").css("color", "black");
+
+          
+            $(".collapsible2").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible2").css("background","#E6E6E6");
+          $(".collapsible2").css("color", "black");
+
+
+
+            $(".collapsible3").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible3").css("background","#E6E6E6");
+           $(".collapsible3").css("color","black");
+           
+            $(".collapsible4").css("box-shadow","10px 5px 18px gray");
+          $(".collapsible4").css("background","#E6E6E6");
+           $(".collapsible4").css("color","black");
           
       });
         </script>
