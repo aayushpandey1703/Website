@@ -7,36 +7,1139 @@
         <meta name="description" content="">
         <meta name="author" content="webthemez">
         <title>Cloud-Hosting-Free-Bootstrap-Responsive-Webiste-Template</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+       <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/font-awesome.min.css" rel="stylesheet">
         <link href="css/animate.min.css" rel="stylesheet"> 
         <link href="css/prettyPhoto.css" rel="stylesheet">
         <link href="css/styles.css" rel="stylesheet"> 
         <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
-<link rel="stylesheet" href="css/bootstrap.min.css" />
-<link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
-<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
-<link href="css/animate.css" rel="stylesheet" media="screen">
-<!-- Owl Carousel Assets -->
-<link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css" />
-<!-- Font Awesome -->
-
-<link href="font/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
-<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+        <link href="css/animate.css" rel="stylesheet" media="screen">
+        <!-- Owl Carousel Assets -->
+        <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css" />
+        <!-- Font Awesome -->
+        <link href="font/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+        <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
 
-
-        <link rel="shortcut icon" href="images/ico/favicon.ico"> 
+         
     </head> 
     <style>
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,500);
+/*
+Author: webthemez.com
+Author URL: http://webthemez.com
+*/
+/*************************
+*******Typography******
+**************************/
+body {
+    padding-top: 100px;
+    background: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #282828;
+    line-height: 26px;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    color: #45aed6;
+    -webkit-transition: color 400ms, background-color 400ms;
+    -moz-transition: color 400ms, background-color 400ms;
+    -o-transition: color 400ms, background-color 400ms;
+    transition: color 400ms, background-color 400ms;
+}
+/*Clients*/
+.clients #owl-demo .item {
+    background: none;
+}
+
+.clients .helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+    .clients .helper img {
+        vertical-align: middle;
+        max-height: 70px;
+        max-width: 80%;
+    }
+
+    .clients .helper:hover {
+        cursor: e-resize;
+    }
+
+.clients .customNavigation > a {
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0px 5px;
+}
+
+#clients {
+    background: #fff;
+}
+
+    #clients .heading {
+        margin: 0px;
+    }
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #2a95be;
+}
+
+.clients #owl-demo .item {
+    background: none;
+}
+
+.clients .helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+    .clients .helper img {
+        vertical-align: middle;
+        max-height: 70px;
+        max-width: 80%;
+    }
+
+    .clients .helper:hover {
+        cursor: e-resize;
+    }
+
+.clients .customNavigation > a {
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0px 5px;
+}
+
+hr {
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #fff;
+}
+
+.gradiant {
+    background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+    background-image: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+    background-image: -ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+}
+
+.gradiant-horizontal {
+    background-image: -moz-linear-gradient(4deg, #2caab3 0%, #2c8cb3 100%);
+    background-image: -webkit-linear-gradient(4deg, #2caab3 0%, #2c8cb3 100%);
+    background-image: -ms-linear-gradient(4deg, #2caab3 0%, #2c8cb3 100%);
+}
+
+.section-header {
+    margin-bottom: 50px;
+}
+
+    .section-header p {
+        text-align: center;
+    }
+
+    .section-header .section-title {
+        font-size: 44px;
+        color: #48B1DF;
+        position: relative;
+        padding-bottom: 20px;
+        margin: 0 0 20px;
+        border-bottom: 1px solid #E7E7E7;
+        display: block;
+        text-align: center;
+    }
+
+        .section-header .section-title:before {
+            content: "";
+            position: absolute;
+            width: 140px;
+            bottom: -5px;
+            right: 0;
+            width: 30px;
+            background: rgb(231, 231, 231);
+            border-radius: 50%;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            height: 10px;
+        }
+
+.btn {
+    border-width: 0;
+    border-radius: 0;
+}
+
+    .btn.btn-primary {
+        background: #48B1DF;
+    }
+
+        .btn.btn-primary:hover,
+        .btn.btn-primary:focus {
+            background: #88BD40;
+        }
+
+.listarrow {
+    padding: 0px;
+}
+
+    .listarrow li {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+        .listarrow li i {
+            padding-right: 15px;
+            color: #48B1DF;
+        }
+
+.column-title {
+    margin-top: 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+    .column-title:after {
+        content: " ";
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        width: 40%;
+    }
+
+ul.nostyle {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+    ul.nostyle i {
+        color: #45aed6;
+    }
+
+.scaleIn {
+    -webkit-animation-name: scaleIn;
+    animation-name: scaleIn;
+}
+
+.navbar-toggle {
+    border-radius: 0;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #A3A3A3;
+}
+
+.navbar-nav > li > a {
+    text-transform: uppercase;
+}
+
+@-webkit-keyframes scaleIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes scaleIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+        transform: scale(0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
+/*************************
+*******Header******
+**************************/
+#main-nav.navbar-default {
+    background: #FFFFFF;
+}
+
+    #main-nav.navbar-default .navbar-nav > li.active > a, #main-nav.navbar-default .navbar-nav > li.open > a, #main-nav.navbar-default .navbar-nav > li:hover > a {
+        background: rgb(72, 177, 223);
+        color: #FFFFFF;
+    }
+
+.navbar.navbar-default {
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+    .navbar.navbar-default .navbar-toggle {
+        margin-top: 32px;
+    }
+
+    .navbar.navbar-default .navbar-brand {
+        height: auto;
+        padding: 10px 15px 1px;
+    }
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #FFFFFF;
+    background: #717075;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #FFFFFF;
+}
+
+#main-nav.navbar-default {
+    background: #222;
+    border-bottom: #48B1DF 1px solid;
+}
+
+.navbar-nav > li {
+    border-right: 1px solid #303030;
+    border-left: 1px solid #171717;
+}
+
+
+@media only screen and (min-width: 768px) {
+    #main-nav.navbar-default {
+        -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.26);
+    }
+
+        #main-nav.navbar-default .navbar-nav > li > a {
+            padding-top: 30px;
+            padding-bottom: 24px;
+            border-bottom: 4px solid transparent;
+        }
+
+    .navbar-default .navbar-nav > li > a {
+        color: #FFFFFF;
+    }
+
+    #main-nav.navbar-default .navbar-nav > li.active > a,
+    #main-nav.navbar-default .navbar-nav > li.open > a,
+    #main-nav.navbar-default .navbar-nav > li:hover > a {
+        background: #48B1DF;
+        color: #FFF;
+    }
+
+    #main-nav.navbar-default .dropdown-menu {
+        padding: 0 20px;
+        min-width: 220px;
+        background-color: rgba(26, 28, 40, 0.9);
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        background-clip: inherit;
+    }
+
+        #main-nav.navbar-default .dropdown-menu > li {
+            border-left: 3px solid transparent;
+            margin-left: -20px;
+            padding-left: 17px;
+            -webit-transition: border-color 400ms;
+            transition: border-color 400ms;
+        }
+
+            #main-nav.navbar-default .dropdown-menu > li > a {
+                padding: 15px 0;
+                color: #A8A8A8;
+            }
+
+            #main-nav.navbar-default .dropdown-menu > li:first-child > a {
+                border-top: 0;
+            }
+
+            #main-nav.navbar-default .dropdown-menu > li.active,
+            #main-nav.navbar-default .dropdown-menu > li.open,
+            #main-nav.navbar-default .dropdown-menu > li:hover {
+                border-left-color: #45aed6;
+            }
+
+                #main-nav.navbar-default .dropdown-menu > li.active > a,
+                #main-nav.navbar-default .dropdown-menu > li.open > a,
+                #main-nav.navbar-default .dropdown-menu > li:hover > a {
+                    color: #45aed6;
+                    background-color: transparent;
+                }
+}
+
         #hero-banner{
   overflow: hidden;
-  height:650px;
+  height:750px;
   background: url('images/banner/banner.jpg');
   background-size:cover;
   color:#fff;
 }
+
+    #hero-banner.item {
+        height: 558px;
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: cover;
+    }
+
+    #hero-banner.banner-inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        color: #000;
+    }
+
+    #hero-banner h2 {
+        margin-top: 275px;
+        font-size: 39px;
+        line-height: 49px;
+        text-align: center;
+    }
+
+        #hero-banner h2 b {
+            color: #48B1DF;
+        }
+
+    #hero-banner p {
+        font-size: 22px;
+        margin-bottom: 20px;
+        line-height: 35px;
+        text-align: center
+    }
+
+    #hero-banner a {
+        text-align: center;
+        width: 150px;
+        margin: 0 auto;
+        display: block;
+        background: transparent;
+        border: 2px solid #fff;
+    }
+
+        #hero-banner a:hover {
+            text-align: center;
+            width: 150px;
+            margin: 0 auto;
+            display: block;
+            background: #fff;
+            border: 2px solid #fff;
+            color: #000;
+        }
+
+    #hero-banner.banner-inner h2 > span {
+        color: #45aed6;
+    }
+
+    #hero-banner.banner-inner .btn {
+        margin-top: 10px;
+    }
+
+#hero-text {
+    padding: 50px 0;
+    border-top: 1px solid #FFFFFF;
+}
+
+    #hero-text h2 {
+        margin-top: 0;
+    }
+
+    #hero-text .btn {
+        margin-top: 40px;
+    }
+
+#cta2 {
+    background: #45b1da;
+    color: #fff;
+    padding-top: 70px;
+}
+
+    #cta2 .btn {
+        margin-top: 10px;
+    }
+
+    #cta2 h2 {
+        color: #fff;
+        font-size: 44px;
+        line-height: 1;
+    }
+
+        #cta2 h2 > span {
+            color: #45aed6;
+        }
+
+#features h2, #portfolio p {
+    color: #4A4A4A;
+}
+
+#features {
+    padding: 100px 0;
+    background: #FFFFFF;
+    color: #000;
+}
+
+    #features .media.service-box:first-child {
+        margin-top: 80px;
+    }
+
+#services, #features {
+    padding: 100px 0 75px;
+}
+
+.media.service-box {
+    margin: 25px 0 36px;
+    padding: 20px;
+    padding-left: 100px;
+    position: relative;
+}
+
+    .media.service-box .pull-left {
+        margin-right: 20px;
+    }
+
+        .media.service-box .pull-left > i {
+            font-size: 35px;
+            /* height: 94px; */
+            line-height: 53px;
+            text-align: center;
+            width: 79px;
+            color: #085C98;
+            /* background:#fff; */
+            /* box-shadow: inset 0 0 0 1px #d7d7d7; */
+            /* -webkit-box-shadow: inset 0 0 0 1px #d7d7d7; */
+            transition: background-color 400ms, background-color 400ms;
+            position: absolute;
+            padding: 14px;
+            /* height: 100%; */
+            left: 5px;
+            top: 25px;
+            vertical-align: middle;
+            background: rgb(240, 240, 240);
+            border-radius: 50% 0 50% 50%;
+            height: 80px;
+        }
+
+.features .media.service-box .pull-left > i {
+    color: #48B1DF;
+}
+
+.media.service-box:hover .pull-left > i {
+}
+
+#portfolio {
+    padding: 100px 0;
+    background: #FFFFFF;
+}
+
+    #portfolio .portfolio-filter {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 50px;
+        display: inline-block;
+    }
+
+        #portfolio .portfolio-filter > li {
+            float: left;
+            display: block;
+        }
+
+            #portfolio .portfolio-filter > li a {
+                display: block;
+                padding: 7px 15px;
+                margin: 0px 2px;
+                color: #222222;
+                position: relative;
+                border-bottom: 2px solid transparent;
+                background: #E5E5E5;
+            }
+
+                #portfolio .portfolio-filter > li a:hover,
+                #portfolio .portfolio-filter > li a.active {
+                    background: #48B1DF;
+                    color: #FFFFFF;
+                }
+
+    #portfolio .portfolio-items {
+        margin: -15px;
+    }
+
+    #portfolio .portfolio-item {
+        width: 24.9%;
+        float: left;
+        padding: 8px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+        #portfolio .portfolio-item .portfolio-item-inner {
+            position: relative;
+        }
+
+            #portfolio .portfolio-item .portfolio-item-inner .portfolio-info {
+                opacity: 0;
+                transition: opacity 400ms;
+                -webkit-transition: opacity 400ms;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                text-align: center;
+                padding: 18px 0 0;
+                background: rgba(0, 0, 0, 0.5);
+                color: #fff;
+                height: 100%;
+            }
+
+                #portfolio .portfolio-item .portfolio-item-inner .portfolio-info h3 {
+                    font-size: 16px;
+                    line-height: 1;
+                    margin: 0;
+                    color: #fff;
+                }
+
+                #portfolio .portfolio-item .portfolio-item-inner .portfolio-info .preview {
+                    width: 36px;
+                    height: 36px;
+                    line-height: 36px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    display: block;
+                    text-align: center;
+                    margin: 15px auto;
+                    font-size: 36px;
+                    border: 0;
+                }
+
+        #portfolio .portfolio-item:hover .portfolio-info {
+            opacity: 1;
+        }
+/* Start: Recommended Isotope styles */
+/**** Isotope Filtering ****/
+.isotope-item {
+    z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+/**** Isotope CSS3 transitions ****/
+.isotope,
+.isotope .isotope-item {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -ms-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    -ms-transition-property: height, width;
+    -o-transition-property: height, width;
+    transition-property: height, width;
+}
+
+    .isotope .isotope-item {
+        -webkit-transition-property: -webkit-transform, opacity;
+        -moz-transition-property: -moz-transform, opacity;
+        -ms-transition-property: -ms-transform, opacity;
+        -o-transition-property: -o-transform, opacity;
+        transition-property: transform, opacity;
+    }
+        /**** disabling Isotope CSS3 transitions ****/
+        .isotope.no-transition,
+        .isotope.no-transition .isotope-item,
+        .isotope .isotope-item.no-transition {
+            -webkit-transition-duration: 0s;
+            -moz-transition-duration: 0s;
+            -ms-transition-duration: 0s;
+            -o-transition-duration: 0s;
+            transition-duration: 0s;
+        }
+    /* End: Recommended Isotope styles */
+    /* disable CSS transitions for containers with infinite scrolling*/
+    .isotope.infinite-scrolling {
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+.img-thumbnail {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    line-height: 1.42857143;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    padding: 0px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    margin-bottom: 15px;
+}
+
+#testimonial {
+    background: #222222;
+    background-size: cover;
+    padding: 100px 0;
+    color: #fff;
+}
+
+    #testimonial h2 {
+        color: #fff;
+    }
+
+    #testimonial h4 {
+        color: #fff;
+        margin-bottom: 8px;
+    }
+
+    #testimonial small {
+        display: block;
+        margin-bottom: 10px;
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    #testimonial .btns {
+        margin-top: 10px;
+    }
+
+#carousel-testimonial a.btn.btn-primary.btn-sm {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 0 8px;
+}
+
+#about {
+    padding: 100px 0;
+    background: #F0F0F0;
+}
+/*Team*/
+#our-team {
+    padding: 100px 0;
+}
+
+    #our-team .team-member {
+        padding: 0;
+    }
+
+        #our-team .team-member .team-img {
+            margin: 0;
+        }
+
+        #our-team .team-member .team-info {
+            background: #E5E5E5;
+            color: #222222;
+            padding: 7px 0;
+        }
+
+        #our-team .team-member:hover .social-icons > li > a {
+            color: #48B1DF;
+        }
+
+    #our-team .social-icons {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        -webkit-transition: height 1s; /* For Safari 3.1 to 6.0 */
+        transition: height 1s;
+        background: #F4F4F4;
+        padding: 6px 0 6px;
+    }
+
+        #our-team .social-icons > li {
+            display: inline-block;
+        }
+
+            #our-team .social-icons > li > a {
+                display: block;
+                width: 32px;
+                height: 32px;
+                line-height: 32px;
+                text-align: center;
+                color: #48B1DF;
+                background: transparent;
+                border-radius: 3px;
+                border: 1px solid #48B1DF;
+                margin: 5px 10px;
+            }
+/*Testimonial Area*/
+
+.testimonial-area {
+    padding-bottom: 60px;
+}
+
+.single-testimonial {
+    margin-bottom: 30px;
+}
+
+    .single-testimonial blockquote {
+        padding: 15px 20px;
+        margin-bottom: 22px;
+        position: relative;
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        transition: all .5s ease;
+        font-size: 14px;
+        background: rgba(52, 52, 52, 1);
+        color: #919191;
+        line-height: 22px;
+        border-radius: 40px 10px 10px 0;
+        border: 0;
+    }
+
+        .single-testimonial blockquote:after {
+            /* position:absolute; */
+            /* bottom:-19px; */
+            /* left:45px; */
+            content: "";
+            /* border-top: 19px solid rgba(255, 255, 255, 0.29); */
+            /* border-right: 22px solid transparent; */
+        }
+
+    .single-testimonial img {
+        border-radius: 0px 50% 50%;
+    }
+
+    .single-testimonial h5 {
+        padding: 8px 0 0px;
+        font-size: 16px;
+        color: #48B1DF;
+    }
+
+.progress {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #eeeeee;
+}
+
+    .progress .progress-bar.progress-bar-primary {
+        background-image: -moz-linear-gradient(4deg, #2caab3 0%, #2c8cb3 100%);
+        background-image: -webkit-linear-gradient(4deg, #2caab3 0%, #2c8cb3 100%);
+        background-image: -ms-linear-gradient(4deg, #2caab3 0%, #2c8cb3 100%);
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+.nav.main-tab {
+    background: #eee;
+    border-bottom: 3px solid #222534;
+    border-radius: 3px 3px 0 0;
+}
+
+    .nav.main-tab > li > a {
+        color: #272727;
+    }
+
+    .nav.main-tab > li.active > a {
+        background: #222534;
+        color: #45aed6;
+    }
+
+    .nav.main-tab > li:first-child > a {
+        border-radius: 3px 0 0 0;
+    }
+
+    .nav.main-tab > li:last-child > a {
+        border-radius: 0 3px 0 0;
+    }
+
+.navbar-nav {
+    margin: 0;
+    border-left: 1px solid #303030;
+    border-right: 1px solid #171717;
+}
+
+.tab-content {
+    border: 1px solid #eee;
+    border-top: 0;
+    padding: 20px 20px 10px;
+    border-radius: 0 0 3px 3px;
+}
+
+.panel-default {
+    border-color: #eee;
+}
+
+    .panel-default > .panel-heading {
+        background-color: #fff;
+        border-color: #eee;
+    }
+
+        .panel-default > .panel-heading .panel-title {
+            font-size: 14px;
+            font-weight: normal;
+        }
+
+        .panel-default > .panel-heading + .panel-collapse > .panel-body {
+            border-top-color: #eee;
+        }
+
+#business-stats {
+    padding: 100px 0 70px;
+    background: #222222;
+    background-size: cover;
+    color: #fff;
+}
+
+    #business-stats h1,
+    #business-stats h2,
+    #business-stats h3,
+    #business-stats h4 {
+        color: #fff;
+    }
+
+    #business-stats strong {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+.business-stats {
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    font-size: 24px;
+    line-height: 140px;
+    border: 4px solid #48B1DF;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+
+#pricing {
+    padding: 100px 0 70px;
+}
+
+    #pricing ul.pricing {
+        list-style: none;
+        padding: 0;
+        margin: 70px 0 30px;
+        border: 1px solid #D0D0D0;
+        padding: 15px;
+        text-align: center;
+        background: #E7E7E7;
+    }
+
+        #pricing ul.pricing li {
+            display: block;
+            padding: 10px;
+        }
+
+            #pricing ul.pricing li.plan-header {
+                background: #222222;
+                margin: -15px -15px 10px;
+                padding: 15px 15px 30px;
+                border: 0;
+                color: #fff !important;
+            }
+
+                #pricing ul.pricing li.plan-header .price-duration {
+                    position: relative;
+                    margin-top: 15px;
+                    top: -10px;
+                    display: inline-block;
+                    width: 100%;
+                    height: 116px;
+                    color: #FFF;
+                }
+
+                    #pricing ul.pricing li.plan-header .price-duration > span {
+                        display: block;
+                        line-height: 1;
+                    }
+
+                        #pricing ul.pricing li.plan-header .price-duration > span.price {
+                            font-size: 24px;
+                            font-weight: 700;
+                            margin-top: 35px;
+                        }
+
+                        #pricing ul.pricing li.plan-header .price-duration > span.duration {
+                            margin-top: 5px;
+                        }
+
+                #pricing ul.pricing li.plan-header .plan-name {
+                    margin-top: 10px;
+                    font-size: 24px;
+                    color: #FFFFFF;
+                    font-weight: bold;
+                    line-height: 1;
+                    text-transform: uppercase;
+                }
+
+        #pricing ul.pricing.featured {
+            background: #E7E7E7;
+            border: 0;
+            color: #222;
+        }
+
+            #pricing ul.pricing.featured li.plan-header .price-duration {
+                color: #fff;
+            }
+
+            #pricing ul.pricing.featured li.plan-header {
+                background: #48B1DF;
+            }
+
+                #pricing ul.pricing.featured li.plan-header .plan-name {
+                    color: #fff;
+                }
+
+#contact-us {
+    padding: 100px 0 10px;
+}
+
+    #contact-us h1,
+    #contact-us h2 {
+    }
+/*Contact*/
+.contact-info {
+    padding: 60px 0;
+}
+
+    .contact-info address {
+        margin-bottom: 20px;
+        font-style: normal;
+        line-height: 27px;
+        font-size: 15px;
+    }
+
+    .contact-info .form-control {
+        padding: 6px 12px;
+        border-radius: 0;
+    }
+
+.business-stats:before {
+    content: '';
+    margin: 17px;
+    display: block;
+    border: currentcolor;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    width: 100px;
+}
+/***********************
+********* Footer ******
+************************/
+#footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+    background: #222222;
+}
+
+    #footer a {
+        color: #fff;
+    }
+
+        #footer a:hover {
+            color: #48B1DF;
+        }
+
+    #footer ul {
+        list-style: none;
+        padding: 0;
+        margin: 0 -7.5px;
+    }
+
+        #footer ul > li {
+            display: inline-block;
+            padding: 3px 0;
+            width: 31px;
+            text-align: center;
+        }
+
+@media only screen and (min-width: 768px) {
+    #footer .social-icons {
+        float: right;
+    }
+}
+
+.form-control {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+@media only screen and (max-width: 480px) {
+    #hero-banner h2 {
+        margin-top: 161px;
+        font-size: 26px;
+        line-height: 40px;
+        padding: 10px;
+    }
+
+    #hero-banner p {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    #portfolio .portfolio-filter {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 12px;
+    }
+
+        #portfolio .portfolio-filter > li a {
+            display: block;
+            padding: 7px 15px;
+            margin: 5px 2px;
+        }
+
+    #portfolio .portfolio-item {
+        width: 48.9%;
+        padding: 8px;
+    }
+
+        #portfolio .portfolio-item .portfolio-item-inner .portfolio-info .preview {
+            width: 28px;
+            height: 24px;
+            line-height: 24px;
+            margin: 9px auto;
+        }
+
+        #portfolio .portfolio-item .portfolio-item-inner .portfolio-info {
+            padding: 7px 0 0;
+        }
+}
+
+
         
 /*=================footer css start==============*/
 .webintern-footer {
@@ -212,82 +1315,500 @@ font-family: 'Open Sans', sans-serif;
 .tt-copy-right {
 text-align: right;
 }
+.header {
+  background: none;
+  position: relative;
+  max-width: 100vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  z-index: 1;
+}
+.header a {
+  text-decoration: none;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: #ffffff;
+}
+.header ul {
+  list-style: none;
+}
+.logo {
+  font-size: 2rem;
+}
+.menu-items {
+  display: flex;
+  align-items: center;
+}
+.menu-items li {
+  padding: 0.5rem 3rem;
+  transition: background 0.3s ease-in-out;
+  font-size:20px;
+  border:none;
+  
+}
+.menu-items li:hover {
+  border-left:2px solid #ff652f;
+}
+.dropdown {
+  position: relative;
+}
+.dropdown-menu,
+.menu-right {
+  position: absolute;
+  background: #122331;
+  width: 100%;
+  top: 50px;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+.menu-right {
+  top: 0;
+  left: 110%;
+}
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.dropdown:hover .dropdown-menu {
+  top: 34px;
+  opacity: 1;
+  visibility: visible;
+}
+.dropdown-right:hover .menu-right {
+  left: 100%;
+  opacity: 1;
+  visibility: visible;
+}
+.mega-menu {
+  position: absolute;
+  left: 0;
+  width: 100vw;
+  top: 80px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  margin-top:0.7%;
+}
+.mega-menu .content {
+  background: black;
+  color:white;
+  padding: 1rem;
+  font-size:20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  width: 100%;
+  justify-content: space-between;
+}
+.blog .content {
+  grid-template-columns: repeat(3, 1fr);
+  line-height:10px;
+}
+.content .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 3rem;
+}
+.content .col .img-wrapper {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 20vw;
+  overflow: hidden;
+}
+.content .col .img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.content .col img {
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+.content .col .img-wrapper:hover img {
+  transform: scale(1.1);
+}
+.content .col h2 {
+  color: #ff652f;
+  font-size: 1.2rem;
+  line-height: 3rem;
+  font-weight: bold;
+}
+.content .col p {
+  line-height: 1.2rem;
+}
+.content .col .mega-links {
+  border-left: 1px solid #1a3246;
+}
+.content .col .read-more {
+  display: inline-block;
+  padding-top: 1rem;
+  color: #427dad;
+  transition: color 0.3s ease;
+}
+.col .mega-links li,
+.col .mega-links li a {
+  padding: 0 1rem;
+}
+.menu-items li:hover .mega-menu {
+  top: 50px;
+  opacity: 1;
+  visibility: visible;
+}
+.content .col .read-more:hover {
+  color: #ff652f;
+}
 
+/*
+Fade content bs-carousel with hero headers
+Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
+Image credits: unsplash.com
+*/
+
+/********************************/
+/*       Fade Bs-carousel       */
+/********************************/
+.fade-carousel {
+    position: relative;
+    height: 100vh;
+}
+.fade-carousel .carousel-inner .item {
+    height: 100vh;
+}
+.fade-carousel .carousel-indicators > li {
+    margin: 0 2px;
+    background-color: #f39c12;
+    border-color: #f39c12;
+    opacity: .7;
+}
+.fade-carousel .carousel-indicators > li.active {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+
+/********************************/
+/*          Hero Headers        */
+/********************************/
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
+}
+.hero h1 {
+    font-size: 6em;    
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s; 
+}
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s;    
+}
+
+/********************************/
+/*            Overlay           */
+/********************************/
+
+
+/********************************/
+/*          Custom Buttons      */
+/********************************/
+.btn.btn-lg {padding: 10px 40px;}
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus {
+    color: #f5f5f5;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    outline: none;
+    margin: 20px auto;
+}
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1 {
+  background-image: url('images/carousel/banner.jpg'); 
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content2 {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 50px;
+  height:50px;
+  font-size: 18px;
+  left:45%;
+  margin-top:-30%;
+  position:absolute;
+  border:2px solid black;
+  outline:none;
+  border-radius:100px;
+  background:none;
+  
+  
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+.fade-carousel .slides .slide-3 {
+  background-image: url('images/carousel/c1.jpg');
+}
+
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px){
+    .hero { width: 980px; }    
+}
+@media screen and (max-width: 640px){
+    .hero h1 { font-size: 4em; }    
+}
+
+#act{
+    border-left:2px solid #ff652f;
+    
+}
     </style>
     <body id="home">
 
-        <header id="header" style="background: black;">
-            <nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="banner"  style="width:100%;background: black;box-shadow:10px 5px 18px gray">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="index.html"><img src="images/click400.png" alt="logo"></a>
-                    </div>
-
-                    <div class="collapse navbar-collapse navbar-right">
-                        <ul class="nav navbar-nav">
-                            <li class="scroll active"><a href="#home">Home</a></li> 
-                           
-                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">IT Services <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="digital.html">Digital Marketing</a></li>
-                                    <li><a href="#">Web Development</a></li>
-                                    <li><a href="#">App Development</a></li>
-                                    <li><a href="#">Shopify Development</a></li>
-                                    <li><a href="#">Search Engine Optimization Development</a></li>
-                                </ul>
-                                 
-                            </li>
-                              <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Brand Development <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="sidebar-right.html">Logo Designing</a></li>
-                                    <li><a href="#">Graphic Designing</a></li>
-                                    <li><a href="#">Content Writing</a></li>
-                                    <li><a href="#">Product Photography</a></li>
-                                </ul>
-                            </li>
-                            <li class="scroll"><a href="#">About Company</a></li> 
-                            <li class="scroll"><a href="#">Portfolio</a></li>
-
-                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="digital.html">FAQs</a></li>
-                                    <li><a href="#">Free a Quote</a></li>
-                                    <li><a href="#">Professional Team</a></li>
-                             
-                                </ul>
-                                 
-                            </li>
-                           
-                        </ul>
-                    </div>
-                </div><!--/.container-->
-            </nav><!--/nav-->
-        </header><!--/header-->
-
-        <section id="hero-banner">
-            <div class="banner-inner">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-
-                            <h2 class="section-title wow fadeInDown"><b class="section-title wow fadeInLeft">Click400</b> Unlimited Services</h2>
-                            <p class="section-title wow fadeInRight">We leverage ultimate technologies  <br/> to transcend customer experience.</p>
-                            <a class="btn btn-primary btn-lg" href="#">Start Now</a>
-
-                        </div>
-                    </div>
-                </div>
+        <header class="header" style="background:none;z-index:2">
+  <a href="#" class="logo"><img src="images/click400.png" /></a>
+  <nav>
+    <ul class="menu-items">
+      <li id="act"><a href="#" class="menu-item"  style="text-decoration:none;color:white">Home</a></li>
+  
+      <li>
+        <a href="#" class="menu-item" >Mega Menu&ensp;<i class="fa fa-caret-down" aria-hidden="true"style="margin-top:5%;"></i></a>
+        <div class="mega-menu">
+          <div class="content" style="height:450px">
+            <div class="col">
+              <section>
+                
+                <a href="#" class="img-wrapper"
+                  ><span class="img" ><img
+                      src="images/mega.jpg"
+                      alt="Random Image"style="height:90%;margin-top:16%" /></span></a>
+                <p style="margin-top:10%">Lorem ipsum dolor sit amet.</p>
+              </section>
             </div>
-        </section><!--/#main-slider-->
+            <div class="col">
+              <section>
+                <h2 style="font-size:25px">Featured 1</h2>
+                <ul class="mega-links" style="line-height:40px">
+                  <li><a href="#" style="text-decoration:none;color:white">Item 1</a></li>
+                  <li><a href="#">Item 2</a></li>
+                  <li><a href="#">Item 3</a></li>
+                  <li><a href="#">Item 4</a></li>
+                  <li><a href="#">Item 5</a></li>
+                </ul>
+              </section>
+            </div>
+            <div class="col">
+              <section>
+                <h2 style="font-size:25px">Featured 2</h2>
+                <ul class="mega-links" style="line-height:40px">
+                  <li><a href="#">Item 1</a></li>
+                  <li><a href="#">Item 2</a></li>
+                  <li><a href="#">Item 3</a></li>
+                  <li><a href="#">Item 4</a></li>
+                  <li><a href="#">Item 5</a></li>
+                </ul>
+              </section>
+            </div>
+            <div class="col">
+              <section>
+                <h2 style="font-size:25px">Featured 3</h2>
+                <ul class="mega-links" style="line-height:40px">
+                  <li><a href="#">Item 1</a></li>
+                  <li><a href="#">Item 2</a></li>
+                  <li><a href="#">Item 3</a></li>
+                  <li><a href="#">Item 4</a></li>
+                  <li><a href="#">Item 5</a></li>
+                </ul>
+              </section>
+            </div>
+           
+          </div>
+        </div>
+      </li>
+      <li>
+        <a href="#" class="menu-item" >Portfolio&ensp;<i class="fa fa-caret-down" aria-hidden="true"style="margin-top:5%;"></i></a>
+        <div class="mega-menu blog">
+          <div class="content">
+            <div class="col">
+              <a href="#" class="img-wrapper"
+                ><span class="img"
+                  ><img
+                    src="https://picsum.photos/400?random=2"
+                    alt="Random Image" /></span
+              ></a>
+              <h2 style="font-size:25px">Title</h2>
+              <p style="line-height:25px">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Dolorum vel quae quos culpa! Voluptate ipsum adipisci et
+                quibusdam deserunt quis.
+              </p>
+              <a href="#" class="read-more">read more...</a>
+            </div>
+            <div class="col">
+              <a href="#" class="img-wrapper"
+                ><span class="img"
+                  ><img
+                    src="https://picsum.photos/400?random=3"
+                    alt="Random Image" /></span
+              ></a>
+              <h2 style="font-size:25px">Title</h2>
+              <p style="line-height:25px">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Dolorum vel quae quos culpa! Voluptate ipsum adipisci et
+                quibusdam deserunt quis.
+              </p>
+              <a href="#" class="read-more">read more...</a>
+            </div>
+            <div class="col">
+              <a href="#" class="img-wrapper"
+                ><span class="img"
+                  ><img
+                    src="https://picsum.photos/400?random=4"
+                    alt="Random Image" /></span
+              ></a>
+              <h2 style="font-size:25px">Title</h2>
+              <p style="line-height:25px">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Dolorum vel quae quos culpa! Voluptate ipsum adipisci et
+                quibusdam deserunt quis.
+              </p>
+              <a href="#" class="read-more">read more...</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li><a href="#" class="menu-item">About</a></li>
+      <li><a href="#" class="menu-item">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="6000" id="bs-carousel" style="margin-top:-5%">
+  <!-- Overlay -->
+  
+  <!-- Indicators -->
+  <ol class="carousel-indicators" >
+    <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#bs-carousel" data-slide-to="1"></li>
+  
+  </ol>
+
+  
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item slides active" >
+      <div class="slide-1"></div>
+      <div class="hero" style="background:black;opacity:0.8;line-height:570px;width:100%">
+        <hgroup style="margin-top:20%;margin-bottom:-15%">
+         
+                     <h1>Welcome</h1>
+                    <h3> To
+                        <span class="typed-text">
+                        </span>
+                        <span class="cursor" style=" cursor: e-resize;">&nbsp;</span>
+                    </h3>
+                  
+            
+        </hgroup>
+        <button class="btn btn-hero btn-lg" role="button" style="background:blue;color:white;border-radius:10px">See all features</button>
+      </div>
+    </div>
+      
+    <!--<div class="item slides">
+      <div class="slide-2"></div>
+      <video muted loop id="myvideo">
+  <source src="video/sample.mp4" type="video/mp4">
+  your browser does not support html5 video.
+</video>
+
+<div class="content2">
+  <h1>heading</h1>
+  <p>lorem ipsum dolor sit amet, an his etiam torquatos. tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei. id qui nemore latine molestiae, ad mutat oblique delicatissimi pro.</p>
+  <button id="mybtn" onclick="myfunction()"><i class="fa fa-play" aria-hidden="true"></i>
+</button>
+</div>
+    </div>-->
+     <div class="item slides" >
+      <div class="slide-3"></div>
+      <div class="hero" style="background:black;opacity:0.8;line-height:570px;width:100%">
+        <hgroup style="margin-top:20%;margin-bottom:-15%">
+            <h1>Best Service</h1>        
+            <h3>Get start your next awesome project</h3>
+        </hgroup>
+        <button class="btn btn-hero btn-lg" role="button" style="background:blue;color:white;border-radius:10px">See all features</button>
+      </div>
+    </div>
+      
+  </div> 
+   </div>
+        <!--<div class="overlay" style="height:100%;width:100%;position:absolute;background:black;opacity:0.7;z-index:1;margin-top:-50%" ></div>-->     
         <section id="services">
             <div class="container">
                 <div class="section-header">
@@ -1037,7 +2558,7 @@ text-align: right;
 </footer>
 
 
-     <!-- GetButton.io widget -->
+    
 <script type="text/javascript">
     (function () {
         var options = {
@@ -1065,5 +2586,20 @@ text-align: right;
         <script src="js/jquery.inview.min.js"></script>
         <script src="js/wow.min.js"></script>
         <script src="js/custom-scripts.js"></script>
+         <script type="text/javascript" src="js/index.js"></script>
+        <script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "<i class='fa fa-pause' aria-hidden='true'></i>";
+  } else {
+    video.pause();
+    btn.innerHTML = "<i class='fa fa-play' aria-hidden='true'></i>";
+  }
+}
+</script>
     </body>
 </html>
